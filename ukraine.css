@@ -1,26 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    font-size: 62.5%;
-}
-
-body  {
-            
+body  {            
     background: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=1380&t=st=1708457139~exp=1708457739~hmac=4d70f1a20d9ac15968084a7970de501b612e9520c76411076633c328f56ba043");
     background-size: cover;
     font-size: 1.6rem;  
     }
-
         
     .menu_unterseite {
             display: flex;
             justify-content: space-between;
             height: 10vh;
-        }
+    }
 
     .logo {
     width: 50px;
