@@ -24,8 +24,8 @@ nav a {
 }
 
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 8rem;
+  height: 8rem;
   /* background-color: rgb(158, 125, 131); */
 }
 
@@ -43,8 +43,10 @@ header nav {
   /* height: 50px; */
   display: none;
   /* background-color: rgb(158, 125, 131); */
+  justify-content: center;
+  align-items: center;
   height: 100%;
-  padding-top: 13px;
+  /* padding-top: 13px; */
 }
 
 /* nav {
@@ -62,7 +64,7 @@ header nav {
 /* Banner Teil */
 
 .banner {
-    height: 82vh;
+    height: 100vh;
     background: url(./images/mainpage-imgs/banner1.jpg) no-repeat center/cover;
 }
 
@@ -85,7 +87,7 @@ main {
   line-height: 10rem;
   text-align: center;
   font-size: 4rem;
-  color: burlywood;
+  color: #415e7a;
 }
 
 .landcards {
@@ -138,8 +140,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(128, 128, 128, 0.32);
-  height: 15rem;
+  background-color: rgba(148, 145, 139, 0.32);
+  height: 20rem;
   text-align: center;
   padding-top: 1rem;
 }
@@ -203,7 +205,7 @@ footer {
 .dropdown-content a {
   display: block;
   padding: 10px;
-  text-decoration: none;
+  /* text-decoration: none; */
   color: rgb(102, 28, 28);
 }
 
@@ -239,13 +241,15 @@ span {
   }
 
   header nav {
-    display: block;
+    display: flex;
+    /* display: block; */
+  
   }
 
-  header nav ul {
+  /* header nav ul {
     display: flex;
     gap: 15px;
-  }
+  } */
 
   .landcards {
     display: grid;
@@ -269,13 +273,14 @@ span {
   }
 
   header nav {
-    display: block;
+    display: flex;
+    /* display: block; */
   }
 
-  header nav ul {
+  /* header nav ul {
     display: flex;
     gap: 15px;
-  }
+  } */
 
     .reise-ziele {
         height: 80%;

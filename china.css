@@ -1,7 +1,7 @@
 
 .body-bgp{
 
-    background: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=1380&t=st=1708457139~exp=1708457739~hmac=4d70f1a20d9ac15968084a7970de501b612e9520c76411076633c328f56ba043");
+    background: url("./images/chinapage-imgs/pic2.jpg");
     background-size: cover;
     font-size: 1.6rem;
 }
@@ -14,17 +14,17 @@
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 5rem;
+    height: 5rem;
 }
 
 .logo img {
     width: 100%;
 }
 
-.banner_unterseite {
-    height: 90vh;
-    background-image: url("https://images.unsplash.com/photo-1529511582893-2d7e684dd128?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+.banner_chinaseite{
+    height: 100vh;
+    background-image: url("https://bpic.51yuansu.com/backgd/cover/00/77/36/65d5b27009047_800.jpg?x-oss-process=image/resize,w_780/sharpen,100");
     background-size: cover;
     background-position: center;
 
@@ -33,15 +33,15 @@
 h1 {
     font-size: 6rem;
     text-align: center;
-    padding-top: 5rem;
-    color: #575757;
+    padding-top: 15rem;
+    color: #a88e39;
 }
 
 h2 {
     font-size: 5rem;
     text-align: center;
     padding-top: 4rem;
-    color: #626262;
+    color: #a88e39;
 }
 
 .link_banner_unterseite {
@@ -63,6 +63,7 @@ h2 {
 
 .main_content_unterseite {
     margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .land_map,
