@@ -38,7 +38,7 @@ header nav {
 
 .banner {
     height: 90vh;
-    background: url(https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center/cover;
+    background: url(./images/mainpage-imgs/banner1.jpg) no-repeat center/cover;
 }
 
 /* Main Teil */
@@ -73,7 +73,7 @@ main {
     /* height: 50%; */
 }
 
-.landcards img {
+.plane, .map{
     width: 100px;
 }
 
@@ -94,12 +94,19 @@ main {
 }
 
 .card-china {
-    background: url(./images/2.png) no-repeat center/cover;
+    background: url(./images/mainpage-imgs/2\ \(1\).png) no-repeat center/cover;
+}
+
+.card-ukraine{
+    background: url(./images/mainpage-imgs/Welcome_ua.gif) no-repeat center/cover;
 }
 
 /* Reiseziele Animation Teil */
 
-
+/* Team Teil */
+#our-team{
+    margin-top: 10rem;
+}
 
 /* footer teil */
 footer {
@@ -194,7 +201,7 @@ footer {
     .reise-ziele {
         height: 80%;
         /* background-color: greenyellow; */
-        background: url(./images/map-main.png) no-repeat center/cover;
+        background: url(./images/mainpage-imgs/map-main.png) no-repeat center/cover;
     }
 
     .reise-ziele h3 {
@@ -206,7 +213,7 @@ footer {
 
     .landcards {
         position: relative;
-        top: -25rem;
+        top: -26rem;
         left: 0px;
         flex-direction: row;
         gap: 5rem;
@@ -231,6 +238,9 @@ footer {
         /* opacity: 0;    */
     }
 
+    .to-go:hover .card{
+        transform: scale(1.5);
+    }
     /* china */
     .to-china:hover .fly-to-china {
         animation: gotochina 1s;
@@ -265,6 +275,7 @@ footer {
         /* animation-duration: 3s; */
         animation-fill-mode: forwards;
     }
+  
 
     @keyframes gotoukraine {
         0% {
