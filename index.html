@@ -1,134 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./basic.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./basic.css" />
     <title>LaLa-Land-Reisen</title>
 
     <!-- Für Font Awesome -->
     <script src="https://kit.fontawesome.com/f6adf96490.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <style>
+    <style></style>
+  </head>
 
-    </style>
-</head>
-
-<body id="home">
+  <body id="home">
     <!-- Mobile First -->
     <!-- Header teil -->
     <header>
 
-        <div class="hamburger-menu">hamburg
+      <div class="hamburger-menu">
+        <button class="dropbtn"><i class="fa fa-bars fa-lg icon-ju"></i></button>
+        <div class="burger-content">
+          <a href="#home">Home</a>
+          <a href="#ourservice">Reiseziele</a>
+          <a href="#">Contact</a>
+        </div>
+    </div>
+      
+      <div class="logo">
+        <img src="./images/LaLa-Land (4).gif" alt="Logo" /> 
+    </div>
 
-        </div>
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#ourservice">Reiseziele</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <a href="#">Start</a>
+            <a href="#">Reiseziele</a>
+            <a href="#">Contact us</a>
         </nav>
-        <div class="logo">
-            Logo
+     
+
+
+        <div class="dropdown">
+            <button class="dropbtn"><i class="fa-solid fa-globe fa-xl icon-ju"></i></button>
+            <div class="dropdown-content">
+                <a href="https://stackoverflow.com/questions/12287672/links-in-select-dropdown-options"><img src="./de.png" alt="Deutsch"><span>Deutsch</span></a>
+                <a href="#"><img src="./iran.png" alt="Iran"><span> فارسی</span></a>
+                <a href="#"><img src="./kina.png" alt="China"><span> CN/中文</span></a>
+                <a href="#"><img src="./uk.png" alt="Ukrainen"><span>Українська</span></a>
+                <a href="#"><img src="./mk.png" alt="Macedonia"><span>Mакедонски</span></a>
+                
+               
+            </div>
         </div>
-        <div class="sprache-dropdown">
-            <select name="choose" id="choose">
-                <option value="https://google.com">DE</option>
-                <option value="EN"><a href="https://google.com">EN</a></option>
-                <option value="ZN">ZN</option>
-            </select>
-            <!-- <a href="https://google.com">DE</a> -->
-        </div>
+
+      </div>
     </header>
 
     <!-- Banner Teil -->
     <div class="banner">
-        <h3>Banner</h3>
+      <h3>Banner</h3>
     </div>
 
     <!-- Main Teil -->
     <main>
-        <!-- something here  -->
-        <section class="einführung">
-            <h3>Die schönsten Reisen sind die,<br> die uns zu uns selbst führen</h3>
-        </section>
+      <!-- something here  -->
+      <section class="einführung">
+        <h3>
+          Die schönsten Reisen sind die,<br />
+          die uns zu uns selbst führen
+        </h3>
+      </section>
 
-        <!-- to link to china, iran, mazodonien, ukraine  -->
-        <div class="container-height">
-
-            <div class="reise-ziele" id="ourservice">
-                <h3>Reiseziele</h3>
-            </div>
-
-            <div class="landcards">
-
-                <a href="./china.html" class="to-china">
-                    <img src="./images/airplane.png" class="plane fly-to-china" alt="">
-                    <img src="./images/china-map.png" class="map china-map" alt="">
-
-                    <div class="card card-china">
-                        <!-- <img src="./images/airplane.png" alt=""> -->
-                        <!-- <p>hsjhfkhdshfksfhkjdshf</p> -->
-                    </div>
-                </a>
-
-                <a href="./ukraine.html " class="to-ukraine">
-                    <img src="./images/airplane.png" class="plane fly-to-ukraine" alt="">
-                    <img src="./images/ukraine-map.png" class="map ukraine-map" alt="">
-
-                    <div class="card card-ukraine">Ukraine</div>
-                </a>
-
-                <a href="./mazedonien.html" class="to-mazedonien">
-                    <img src="./images/airplane.png" class="plane fly-to-mazedonien" alt="">
-                    <img src="./images/mazed-map.png" class="map mazodonien-map" alt="">
-
-                    <div class="card card-mazedonien">mazedonien</div>
-                </a>
-
-                <a href="./iran.html" class="to-iran">
-                    <img src="./images/airplane.png" class="plane fly-to-iran" alt="">
-                    <img src="./images/iran-map.png" class="map iran-map" alt="">
-
-                    <div class="card card-iran">Iran</div>
-                </a>
-
-            </div>
+      <!-- to link to china, iran, mazodonien, ukraine  -->
+      <div class="container-height">
+        <div class="reise-ziele" id="ourservice">
+          <h3>Reiseziele</h3>
         </div>
-        <section>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et dolorum ab corrupti velit tenetur sunt
-                nesciunt provident quod ad vero incidunt, nam voluptate repellat sapiente exercitationem iste nostrum!
-                Dolore, sequi.</p>
-        </section>
+
+        <div class="landcards">
+          <a href="./china.html" class="to-china">
+            <img
+              src="./images/airplane.png"
+              class="plane fly-to-china"
+              alt=""
+            />
+            <img src="./images/china-map.png" class="map china-map" alt="" />
+
+            <div class="card card-china">
+              <!-- <img src="./images/airplane.png" alt=""> -->
+              <!-- <p>hsjhfkhdshfksfhkjdshf</p> -->
+            </div>
+          </a>
+
+          <a href="./ukraine.html " class="to-ukraine">
+            <img
+              src="./images/airplane.png"
+              class="plane fly-to-ukraine"
+              alt=""
+            />
+            <img
+              src="./images/ukraine-map.png"
+              class="map ukraine-map"
+              alt=""
+            />
+
+            <div class="card card-ukraine">Ukraine</div>
+          </a>
+
+          <a href="./mazedonien.html" class="to-mazedonien">
+            <img
+              src="./images/airplane.png"
+              class="plane fly-to-mazedonien"
+              alt=""
+            />
+            <img
+              src="./images/mazed-map.png"
+              class="map mazodonien-map"
+              alt=""
+            />
+
+            <div class="card card-mazedonien">mazedonien</div>
+          </a>
+
+          <a href="./iran.html" class="to-iran">
+            <img src="./images/airplane.png" class="plane fly-to-iran" alt="" />
+            <img src="./images/iran-map.png" class="map iran-map" alt="" />
+
+            <div class="card card-iran">Iran</div>
+          </a>
+        </div>
+      </div>
+      <section>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et dolorum
+          ab corrupti velit tenetur sunt nesciunt provident quod ad vero
+          incidunt, nam voluptate repellat sapiente exercitationem iste nostrum!
+          Dolore, sequi.
+        </p>
+      </section>
     </main>
 
-
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure obcaecati at natus nemo beatae harum blanditiis,
-        odio quaerat voluptatibus quis, illo totam mollitia aspernatur, eveniet cumque. Fugit recusandae iusto omnis.
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure obcaecati
+      at natus nemo beatae harum blanditiis, odio quaerat voluptatibus quis,
+      illo totam mollitia aspernatur, eveniet cumque. Fugit recusandae iusto
+      omnis.
     </p>
-
 
     <!-- Footer Teil  -->
     <footer>
-
-        <div class="contact-info">
-            <a href="#contact-form">contact us</a>
-            <!-- <h3>contact us</h3> -->
-            <div class="icons">
-                <ul class="icon-list">
-                    <li class="icon"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li class="icon"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li class="icon"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-
-                </ul>
-            </div>
+      <div class="contact-info">
+        <a href="#contact-form">contact us</a>
+        <!-- <h3>contact us</h3> -->
+        <div class="icons">
+          <ul class="icon-list">
+            <li class="icon">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li class="icon">
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li class="icon">
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+          </ul>
         </div>
-        <p class="autors">&copy;2024 Anna Julijana Jian Alex </p>
+      </div>
+      <p class="autors">&copy;2024 Anna Julijana Jian Alex</p>
     </footer>
-</body>
-
+  </body>
 </html>
