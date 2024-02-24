@@ -16,7 +16,9 @@
   <script src="https://kit.fontawesome.com/f6adf96490.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-  <style></style>
+  <style>
+
+  </style>
 </head>
 
 <body id="home">
@@ -34,7 +36,10 @@
     </div>
 
     <div class="logo">
-      <img src="./images/LaLa-Land (4).gif" alt="Logo" />
+      <h1>
+        <a href="./index.html">lala-land</a>
+    </h1>
+      <!-- <img src="./images/LaLa-Land (4).gif" alt="Logo" /> -->
     </div>
 
     <nav>
@@ -82,7 +87,7 @@
       <div class="reise-ziele" id="ourservice">
         <h3>Reiseziele</h3>
       </div>
-
+      <h3>genießen Sie Ihren Urlaub</h3>
       <div class="landcards">
 
         <a href="./china.html" class="to-go to-china">
@@ -128,7 +133,7 @@
     <h2>Das Team der Webentwicklungspartner</h2>
     <div class="alex">
       <!-- Jian -->
-      <div>
+      <div class="team-cards">
         <img src="./images/mainpage-imgs/jian-profilnew.png" alt="" class="team-partner" />
         <p>
           <br /><b>
@@ -136,11 +141,11 @@
             china seite erstellt
           </b>
         </p>
-        <a href=""><i> nach China seite</i></a> <br />Email Adresse:
-        jian.lu@gmail.com
+        <!-- <a href="./china.html"><i> nach China seite</i></a> <br /> -->
+        Email Adresse:jian.lu@gmail.com
       </div>
       <!-- Anna -->
-      <div>
+      <div class="team-cards">
         <img src="./images/mainpage-imgs/anna-profilnew.png" alt="" class="team-partner" />
         <p>
           <br /><b>
@@ -148,11 +153,11 @@
             <br />Ukraine seite erstellt
           </b>
         </p>
-        <a href=""><i> nach Ukraine seite</i></a> <br />Email Adresse:
-        anna.p@gmail.com
+        <!-- <a href="./ukraine.html"><i> nach Ukraine seite</i></a> <br /> -->
+        Email Adresse: anna.p@gmail.com
       </div>
       <!-- Julijana -->
-      <div>
+      <div class="team-cards">
         <img src="./images/mainpage-imgs/julijana-profilnew.png" alt="" class="team-partner" />
         <p>
           <br /><b>
@@ -160,11 +165,11 @@
             Macodonia seite erstell <br />
           </b>
         </p>
-        <a href=""><i>nach Macodonia seite</i></a> <br />Email Adresse:
-        julijana.u@gmail.com
+        <!-- <a href="./mazedonien.html"><i>nach Macodonia seite</i></a> <br /> -->
+        Email Adresse:julijana.u@gmail.com
       </div>
       <!-- Alex -->
-      <div>
+      <div class="team-cards">
         <img src="./images/mainpage-imgs/alex-profilnew.png" alt="" class="team-partner" /><br />
         <br />
         <p>
@@ -173,7 +178,7 @@
             Iran seite erstellt
           </b>
         </p>
-        <a href=""><i>nach Iran seite</i></a><br />
+        <!-- <a href="./iran.html"><i>nach Iran seite</i></a><br /> -->
         Email Adresse: alexmani906@gmail.com
       </div>
     </div>
@@ -185,8 +190,7 @@
   <footer>
     <!-- form Teil -->
     <div class="contact-info">
-      <a href="#contact-form">contact us</a>
-      <!-- <h3>contact us</h3> -->
+
       <div class="icons">
         <ul class="icon-list">
           <li class="icon">
@@ -200,6 +204,32 @@
           </li>
         </ul>
       </div>
+
+      <div class="contact-area">
+        <legend>Do you want to contact us?</legend>
+
+        <!-- <input type="submit" value="thank you" id="thanks"> -->
+        <input type="radio" name="contact" id="yes">yes
+        <input type="radio" name="contact" id="no">no,thanks
+        <!-- <label for="submit">submit</label> -->
+        <!-- <input type="checkbox" id="submit"> -->
+        <form action="#" method="post" class="contact-form">
+          <div>
+            <label for="name">name:</label>
+            <input type="text" id="name"><br><br>
+            <label for="email">email:</label>
+            <input type="email" name="" id="email"><br><br>
+            <label for="time">choose a date</label>
+            <input type="date" id="time"><br><br>
+            <label for="more-info">Plese give us more information about you:</label><br>
+            <textarea name="" id="" cols="30" rows="10" id="more-info"></textarea><br><br>
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+      <!-- <a href="#contact-form">contact us</a> -->
+      <!-- <h3>contact us</h3> -->
+
     </div>
     <p class="autors">&copy;2024 Anna Julijana Jian Alex</p>
   </footer>
