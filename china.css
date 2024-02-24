@@ -23,7 +23,9 @@
 }
 
 .banner_chinaseite{
-    height: 100vh;
+    /* header is position:fixed, no place */
+    margin-top: 13vh;
+    height: 87vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
