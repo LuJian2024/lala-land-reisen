@@ -1,6 +1,12 @@
 body {
-  background-image: url("https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg?w=1060&t=st=1708877103~exp=1708877703~hmac=65bee5f56cb8e1088394409ea144f99b295d659b45b106700a8185701b97f1c4");
+  /* background-image: url("https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg?w=1060&t=st=1708877103~exp=1708877703~hmac=65bee5f56cb8e1088394409ea144f99b295d659b45b106700a8185701b97f1c4"); */
   background-size: cover;
+  background: linear-gradient(
+    45deg,
+    rgb(214, 217, 223) 0%,
+    rgb(255, 255, 255) 50%,
+    rgb(255, 240, 120) 100%
+  );
 }
 
 header {
@@ -139,11 +145,16 @@ main {
 }
 .einführung {
   margin-bottom: 10rem;
-  height: 20rem;
+  /* height: 20rem; */
   /* line-height: 2rem; */
   text-align: center;
   font-size: 4rem;
   color: #004aad;
+}
+
+.einführung > p {
+  color: #415e7a;
+  font-size: 3rem;
 }
 
 .landcards {
@@ -179,6 +190,41 @@ main {
   border-radius: 25% 0;
 }
 
+/*Mehr Tekst*/
+
+.tips-titel {
+  margin-top: 30rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.travel-tips {
+  width: 35%;
+  /* margin: 0 auto; */
+  /* margin-top: 30rem; */
+  line-height: 2.5rem;
+  box-shadow: 0px 0px 10px rgb(124, 152, 176);
+  color: #004aad;
+  background: rgb(235, 233, 233);
+  border-radius: 25% 0;
+  /* padding-top: 3rem; */
+  padding: 4rem;
+}
+
+.tips {
+  display: flex;
+  gap: 2rem;
+  /* width: 70%; */
+  justify-content: center;
+  /* margin: 0 auto; */
+}
+
+.travel-tips li::before {
+  content: "\f5c1";
+  font-family: "FontAwesome";
+  margin-right: 10px;
+}
+
 .card-china {
   background: url(./Welcome-Ch.gif) no-repeat center/cover;
 }
@@ -201,8 +247,80 @@ main {
 
 /* Team Teil */
 #our-team {
-  margin-top: 10rem;
+  margin-top: 40rem;
 }
+
+.alex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-cards {
+  box-shadow: 0px 0px 10px rgb(124, 152, 176);
+  background: linear-gradient(
+    90deg,
+    rgb(149, 153, 163) 0%,
+    rgb(255, 255, 255) 50%,
+    rgb(255, 240, 120) 100%
+  );
+
+  /* background: linear-gradient(180deg, rgba(145,149,150,1) 0%, rgba(142,152,170,1) 43%, rgba(94,181,217,1) 60%, rgba(255,218,0,1) 100%); */
+  /* background: rgb(234, 234, 235); */
+  padding: 2rem;
+  border-radius: 25% 0;
+}
+
+.welcome-cards {
+  margin-bottom: 1rem;
+  box-shadow: 0px 0px 10px rgb(124, 152, 176);
+  /* background: linear-gradient(
+    90deg,
+    rgb(149, 153, 163) 0%,
+    rgb(255, 255, 255) 50%,
+    rgb(255, 240, 120) 100% 
+  ); */
+  width: 30rem;
+  border-radius: 25% 0;
+  text-align: center;
+  padding: 2rem;
+  color: #004aad;
+  background: rgb(235, 233, 233);
+}
+
+.team-partner {
+  width: 210px;
+  height: 220px;
+  border-radius: 25% 0;
+  /* border: 8px solid rgb(242, 214, 71); */
+  box-shadow: 0px 0px 10px rgb(124, 104, 67);
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.team {
+  text-align: center;
+  padding: 30px;
+  /* box-shadow: inset 0px 0px 20px rgb(167, 220, 253); */
+  /* padding: 30px; */
+  margin: 30px;
+}
+
+#our-team > h2 {
+  font-style: oblique;
+  color: #7c98b0;
+  font-size: 4rem;
+}
+
+/* @media screen and (max-width:750px) {
+    .alex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+} */
 
 /* footer teil */
 footer {
@@ -300,9 +418,10 @@ input[type="submit"] {
 
 .burger-content a {
   display: block;
-  padding: 10px;
+  padding: 1rem;
   /* text-decoration: none; */
   color: #004aad;
+  font-size: 3rem;
 }
 
 .burger-content a:hover {
@@ -314,10 +433,15 @@ input[type="submit"] {
 }
 
 .dropbtn {
-  padding: 10px;
+  /* padding: 10px; */
   font-size: 2em;
   background-color: transparent;
   border: none;
+  color: #004aad;
+}
+
+.dropbtn .sprache {
+  display: none;
 }
 
 .dropdown-content {
@@ -331,12 +455,13 @@ input[type="submit"] {
 
 .dropdown-content a {
   display: block;
-  padding: 10px;
+  padding: 1rem;
   /* text-decoration: none; */
   color: #004aad;
+  font-size: 3rem;
 }
 
-span {
+.language {
   padding-left: 5px;
 }
 
@@ -349,20 +474,11 @@ span {
 }
 
 .dropdown-content img {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 /* contact Teil Alex */
-.alex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.team-cards {
-  margin-bottom: 1rem;
-}
 
 /* Tab breakpoint 450px-800px */
 @media screen and (min-width: 450px) and (max-width: 800px) {
@@ -381,6 +497,10 @@ span {
   header nav {
     display: flex;
     /* display: block; */
+  }
+
+  .dropbtn .sprache {
+    display: inline-block;
   }
 
   /* header nav ul {
@@ -425,6 +545,10 @@ span {
     /* display: block; */
   }
 
+  .dropbtn .sprache {
+    display: inline-block;
+  }
+
   .banner h1 {
     padding-left: 50rem;
     padding-top: 35rem;
@@ -436,7 +560,7 @@ span {
   }
 
   .link_banner {
-    padding-left: 15rem;
+    padding-left: 50rem;
   }
 
   /* header nav ul {
@@ -445,23 +569,27 @@ span {
   } */
 
   .reise-ziele {
-    height: 80%;
+    height: 100%;
     /* background-color: greenyellow; */
-    background: url(./images/mainpage-imgs/map-main.png) no-repeat center/cover;
+    background: url(https://cdn.pixabay.com/photo/2012/04/11/15/48/continents-28616_1280.png)
+      no-repeat center/cover;
   }
 
-  .reise-ziele h3 {
+  .container-height > h3 {
     display: block;
-    height: 50%;
-    line-height: 50rem;
+    /* height: 50%; */
+    /* line-height: 50rem; */
     text-align: center;
+    font-size: 5rem;
+    color: #004aad;
+    margin-bottom: 3rem;
   }
   .reise-ziele + h3 {
     display: none;
   }
   .landcards {
     position: relative;
-    top: -26rem;
+    top: -40rem;
     left: 0px;
     flex-direction: row;
     gap: 5rem;
