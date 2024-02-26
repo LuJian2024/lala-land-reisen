@@ -1,3 +1,8 @@
+body {
+  background-image: url("https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg?w=1060&t=st=1708877103~exp=1708877703~hmac=65bee5f56cb8e1088394409ea144f99b295d659b45b106700a8185701b97f1c4");
+  background-size: cover;
+}
+
 header {
   /* 使用width: 100%不知为何不是理想中的宽度??? */
   /* width: 100%; */
@@ -83,9 +88,40 @@ header nav {
   background: url(./images/mainpage-imgs/banner1.jpg) no-repeat center/cover;
 }
 
+.banner h1 {
+  font-size: 6rem;
+  text-align: center;
+  padding-top: 3rem;
+  color: #415e7a;
+}
+
+.banner h2 {
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 1rem;
+  color: #415e7a;
+}
+
+.link_banner {
+  position: absolute;
+  bottom: 7%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.link_banner a {
+  background-color: rgb(65, 94, 122, 0.7);
+  text-decoration: none;
+  font-size: 3rem;
+  border-radius: 10%;
+  padding: 1.5rem;
+  color: #b4c1c8;
+}
+
 /* Main Teil */
 main {
-  margin-top: 10rem;
+  margin-top: 13vh;
 }
 
 .reise-ziele h3 {
@@ -387,6 +423,20 @@ span {
   header nav {
     display: flex;
     /* display: block; */
+  }
+
+  .banner h1 {
+    padding-left: 50rem;
+    padding-top: 35rem;
+  }
+
+  .banner h2 {
+    padding-left: 50rem;
+    padding-top: 5rem;
+  }
+
+  .link_banner {
+    padding-left: 15rem;
   }
 
   /* header nav ul {
