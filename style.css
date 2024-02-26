@@ -16,20 +16,21 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 2rem;
+  padding-right: 2rem;
   z-index: 2;
 }
 
 /*Julijana*/
 
 nav a {
-  color: rgb(130, 34, 34);
-  margin-right: 20px;
+  color: #004aad;
+  margin-right: 3rem;
+  font-size: 3.5rem;
 }
 
 .icon-ju {
-  color: rgb(130, 34, 34);
+  color: #004aad;
 }
 
 .logo {
@@ -37,14 +38,14 @@ nav a {
   height: 100%;
   /* background-color: rgb(158, 125, 131); */
 }
-.logo>h1{
+.logo > h1 {
   height: 100%;
 }
-.logo>h1>a{
+.logo > h1 > a {
   display: block;
   /* width: 8rem; */
   height: 100%;
-  background: url("./images/LaLa-Land (4).gif") no-repeat center/cover;
+  background: url(./Logo-grau-blau.gif) no-repeat center/cover;
   font-size: 0;
 }
 .logo img {
@@ -84,8 +85,8 @@ header nav {
 .banner {
   /* header is position:fixed, no place */
   margin-top: 13vh;
-    height: 87vh;
-    background: url(./images/mainpage-imgs/banner1.jpg) no-repeat center/cover;
+  height: 87vh;
+  background: url(./images/mainpage-imgs/banner1.jpg) no-repeat center/cover;
 }
 
 .banner h1 {
@@ -132,7 +133,7 @@ main {
   height: 100vh;
 }
 
-.reise-ziele + h3{
+.reise-ziele + h3 {
   font-size: 4rem;
   text-align: center;
   color: #f4d965;
@@ -143,7 +144,7 @@ main {
   /* line-height: 2rem; */
   text-align: center;
   font-size: 4rem;
-  color: #415e7a;
+  color: #004aad;
 }
 
 .landcards {
@@ -155,10 +156,11 @@ main {
   /* height: 50%; */
 }
 
-.plane, .map{
-    width: 10rem;
-    /* display: none; */
-    visibility: hidden;
+.plane,
+.map {
+  width: 10rem;
+  /* display: none; */
+  visibility: hidden;
 }
 
 .landcards a {
@@ -175,21 +177,32 @@ main {
   width: 20rem;
   height: 20rem;
   /* border: 2px solid black; */
+  border-radius: 25% 0;
 }
 
 .card-china {
-    background: url(./images/mainpage-imgs/2\ \(1\).png) no-repeat center/cover;
+  background: url(./Welcome-Ch.gif) no-repeat center/cover;
 }
 
-.card-ukraine{
-    background: url(./images/mainpage-imgs/Welcome_ua.gif) no-repeat center/cover;
+.card-ukraine {
+  background: url(./Welcome-Ua.gif) no-repeat center/cover;
+}
+
+.card-mazedonien {
+  background: url(./Welcome-Mk-1.gif) no-repeat center/cover;
+
+  /* backdrop-filter: blur(30px); */
+}
+
+.card-iran {
+  background: url(./Welcome-Ir.gif) no-repeat center/cover;
 }
 
 /* Reiseziele Animation Teil */
 
 /* Team Teil */
-#our-team{
-    margin-top: 10rem;
+#our-team {
+  margin-top: 10rem;
 }
 
 /* footer teil */
@@ -213,7 +226,6 @@ footer {
 }
 
 .icon-list {
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -230,8 +242,8 @@ footer {
   flex: 1;
   align-self: center;
 }
-.contact-area{
-  flex:2;
+.contact-area {
+  flex: 2;
   /* margin-top: 4rem; */
 }
 
@@ -241,14 +253,15 @@ form {
   display: none;
 }
 
-#yes:checked~form {
+#yes:checked ~ form {
   visibility: visible;
   display: block;
   position: absolute;
-  transform: translate(-1rem, -42rem)
+  transform: translate(-1rem, -42rem);
+  /* right: 0; */
 }
 
-#no:checked~form {
+#no:checked ~ form {
   visibility: hidden;
 }
 
@@ -259,8 +272,16 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #004aad;
 
-  background-color: #f4d965;;
+  background-color: gainsboro;
+  border: 3px dotted #004aad;
+}
+
+input[type="submit"] {
+  color: #004aad;
+  padding: 5px;
+  margin-bottom: 5px;
 }
 
 .autors {
@@ -282,7 +303,7 @@ form {
   display: block;
   padding: 10px;
   /* text-decoration: none; */
-  color: rgb(102, 28, 28);
+  color: #004aad;
 }
 
 .burger-content a:hover {
@@ -295,7 +316,7 @@ form {
 
 .dropbtn {
   padding: 10px;
-  /* font-size: 10px; */
+  font-size: 2em;
   background-color: transparent;
   border: none;
 }
@@ -313,7 +334,7 @@ form {
   display: block;
   padding: 10px;
   /* text-decoration: none; */
-  color: rgb(102, 28, 28);
+  color: #004aad;
 }
 
 span {
@@ -340,10 +361,9 @@ span {
   justify-content: center;
   align-items: center;
 }
-.team-cards{
+.team-cards {
   margin-bottom: 1rem;
 }
-
 
 /* Tab breakpoint 450px-800px */
 @media screen and (min-width: 450px) and (max-width: 800px) {
@@ -362,7 +382,6 @@ span {
   header nav {
     display: flex;
     /* display: block; */
-  
   }
 
   /* header nav ul {
@@ -375,7 +394,7 @@ span {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  .to-go{
+  .to-go {
     margin: 0 auto;
   }
 
@@ -385,10 +404,8 @@ span {
     grid-template-rows: 1fr 1fr;
     gap: 2rem;
     /* padding: 5rem; */
+  }
 }
-}
-
-
 
 /* Computer breakpoint >800px */
 @media screen and (min-width: 800px) {
@@ -429,11 +446,13 @@ span {
     gap: 15px;
   } */
 
-    .reise-ziele {
-        height: 80%;
-        /* background-color: greenyellow; */
-        background: url(./images/mainpage-imgs/map-main.png) no-repeat center/cover;
-    }
+  .reise-ziele {
+    height: 80%;
+    width: 70%;
+    margin: 0 auto;
+    /* background-color: greenyellow; */
+    background: url(https://cdn.pixabay.com/photo/2012/04/18/01/45/world-36479_1280.png) no-repeat center/cover;
+  }
 
   .reise-ziele h3 {
     display: block;
@@ -441,24 +460,24 @@ span {
     line-height: 50rem;
     text-align: center;
   }
-  .reise-ziele + h3{
+  .reise-ziele + h3 {
     display: none;
   }
-    .landcards {
-        position: relative;
-        top: -26rem;
-        left: 0px;
-        flex-direction: row;
-        gap: 5rem;
-    }
+  .landcards {
+    position: relative;
+    top: -26rem;
+    left: 0px;
+    flex-direction: row;
+    gap: 5rem;
+  }
 
-    .alex {
-      /* display: flex; */
-      flex-direction: row;
-      justify-content: space-evenly;
-      align-items: center;
-      /* background-color: rgb(169, 244, 244); */
-      padding: 5rem;
+  .alex {
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgb(169, 244, 244); */
+    padding: 5rem;
   }
 
   /* .top-place {
@@ -480,15 +499,15 @@ span {
     /* opacity: 0;    */
   }
 
-    .to-go:hover .card{
-        transform: scale(1.5);
-    }
-    /* china */
-    .to-china:hover .fly-to-china {
-        animation: gotochina 1s;
-        /* animation-duration: 3s; */
-        animation-fill-mode: forwards;
-    }
+  .to-go:hover .card {
+    transform: scale(1.5);
+  }
+  /* china */
+  .to-china:hover .fly-to-china {
+    animation: gotochina 1s;
+    /* animation-duration: 3s; */
+    animation-fill-mode: forwards;
+  }
 
   @keyframes gotochina {
     0% {
@@ -511,13 +530,12 @@ span {
     transform: translate(870px, -355px);
   }
 
-    /* ukraine */
-    .to-ukraine:hover .fly-to-ukraine {
-        animation: gotoukraine 1s;
-        /* animation-duration: 3s; */
-        animation-fill-mode: forwards;
-    }
-  
+  /* ukraine */
+  .to-ukraine:hover .fly-to-ukraine {
+    animation: gotoukraine 1s;
+    /* animation-duration: 3s; */
+    animation-fill-mode: forwards;
+  }
 
   @keyframes gotoukraine {
     0% {
@@ -537,7 +555,7 @@ span {
     /* opacity: 1; */
     display: block;
     position: relative;
-    transform: translate(280px, -325px);
+    transform: translate(240px, -425px);
   }
 
   /* mazedonien */
