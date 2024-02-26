@@ -1,0 +1,167 @@
+body  {            
+    background: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=1380&t=st=1708457139~exp=1708457739~hmac=4d70f1a20d9ac15968084a7970de501b612e9520c76411076633c328f56ba043");
+    background-size: cover;
+    font-size: 1.6rem;  
+    }
+        
+    /* .menu_unterseite {
+            display: flex;
+            justify-content: space-between;
+            height: 10vh;
+    }
+
+    .logo {
+    width: 50px;
+    height: 50px;
+}
+    .logo img {
+        width: 100%;
+    } */
+
+    .banner_unterseite {
+        height: 90vh;
+        background-image: url("https://images.unsplash.com/photo-1529511582893-2d7e684dd128?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-size: cover;
+        background-position: center;
+        margin-top: 13vh;
+
+    }
+
+    .banner_unterseite h1 {
+        font-size: 6rem;
+        text-align: center;
+        padding-top: 5rem;
+        color: #575757;
+    }
+
+    .banner_unterseite h2, .top_5_places h2, .weitere_info h2 {
+        font-size: 5rem;
+        text-align: center;
+        padding-top: 4rem;
+        color: #626262;
+    }
+    
+    .link_banner_unterseite {
+            position: absolute;
+            bottom: 10%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+    }
+
+    .link_banner_unterseite a {   
+        background-color: rgb(3, 137, 168, 0.8);
+        text-decoration: none;
+        font-size: 3rem;
+        border-radius: 10%;
+        padding: 1.5rem;
+        color: #B4C1C8;
+    }
+
+    .main_content_unterseite {
+        padding-top: 13vh;
+    }
+
+    .top_5_places, .weitere_info {
+        padding-top: 13vh;
+    }
+
+    .top_5_places h2 {
+        text-align: center;
+    }
+
+    .land_map, .places_foto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .places, .info_unterseite {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        gap: 30px;
+    }
+
+    .text, .main-text {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .land_map img,  img, iframe {
+        width: 300px;
+        height: 180px;
+        border-radius: 25% 0% ;         
+    }
+    
+
+    .text a, .main-text a {
+        text-decoration: none;
+        border-radius: 10%;
+        background-color: rgb(3, 137, 168, 0.5);
+        padding: 0.7rem;
+        color: black;
+    }
+
+    table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        th, td {
+            text-align: center;
+            padding: 8px;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #B4C1C8;
+        }
+
+
+        @media screen and (min-width: 768px){
+            
+        .land_map img,  img, iframe {
+        width: 600px;
+        height: 350px;              
+    }
+
+        }
+        
+        @media screen and (min-width: 992px){
+               
+        .places, .info_unterseite {
+        height: 300px;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 4rem;
+        gap: 30px;
+        }
+
+        .land_map, .places_foto {
+    
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+        .text, .main-text {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }     
+    .land_map img,  img, iframe {
+        width: 500px;
+        height: 300px;              
+    }
+
+}
