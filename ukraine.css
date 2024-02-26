@@ -4,7 +4,7 @@ body  {
     font-size: 1.6rem;  
     }
         
-    .menu_unterseite {
+    /* .menu_unterseite {
             display: flex;
             justify-content: space-between;
             height: 10vh;
@@ -16,36 +16,37 @@ body  {
 }
     .logo img {
         width: 100%;
-    }
+    } */
 
     .banner_unterseite {
         height: 90vh;
         background-image: url("https://images.unsplash.com/photo-1529511582893-2d7e684dd128?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
         background-size: cover;
         background-position: center;
+        margin-top: 13vh;
 
     }
 
-    h1 {
+    .banner_unterseite h1 {
         font-size: 6rem;
         text-align: center;
         padding-top: 5rem;
         color: #575757;
     }
 
-    h2 {
+    .banner_unterseite h2, .top_5_places h2, .weitere_info h2 {
         font-size: 5rem;
         text-align: center;
         padding-top: 4rem;
         color: #626262;
     }
-
+    
     .link_banner_unterseite {
-        position: absolute;
-        bottom: 10%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
+            position: absolute;
+            bottom: 10%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
     }
 
     .link_banner_unterseite a {   
@@ -58,7 +59,15 @@ body  {
     }
 
     .main_content_unterseite {
-        margin-top: 4rem;
+        padding-top: 13vh;
+    }
+
+    .top_5_places, .weitere_info {
+        padding-top: 13vh;
+    }
+
+    .top_5_places h2 {
+        text-align: center;
     }
 
     .land_map, .places_foto {
@@ -125,6 +134,7 @@ body  {
         }
         
         @media screen and (min-width: 992px){
+               
         .places, .info_unterseite {
         height: 300px;
         flex-direction: row;
@@ -154,7 +164,4 @@ body  {
         height: 300px;              
     }
 
-    .main_content_unterseite {
-        margin-top: 10rem;
-    }
 }

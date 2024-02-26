@@ -6,19 +6,52 @@
     <title>Ukraine</title>
     <link rel="stylesheet" href="ukraine.css">
     <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f6adf96490.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 <body>
     <header>
-        <div class="menu_unterseite">
-            <div class="startseite">
-                <a href="#">zur Startseite</a>
-            </div>
+        <div class="hamburger-menu">
+          <button class="dropbtn"><i class="fa fa-bars fa-lg icon-ju"></i></button>
+          <div class="burger-content">
+            <a href="#home">Start</a>
+            <a href="#ourservice">Reiseziele</a>
+            <a href="#our-team">Contact uns</a>
+          </div>
+        </div>
+    
         <div class="logo">
-          
+            <h1>
+                <a href="./index.html">lala-land</a>
+            </h1>
+          <!-- <img src="./images/LaLa-Land (4).gif" alt="Logo" /> -->
         </div>
-        <div class="sprache">DE</div>
-      </div>
-        </div>
+    
+        <nav>
+            <a href="./index.html">Hauptseite</a>
+          <a href="#home">Start</a>
+          <a href="#top_5_places">Reiseziele</a>
+          <a href="#reiseinfo">Reiseinfo</a>
+          <a href="#our-info">Contact uns</a>
+        </nav>
+        
+        <div class="dropdown">
+          <button class="dropbtn"><i class="fa-solid fa-globe fa-xl icon-ju"></i></button>
+          <div class="dropdown-content">
+            <a href="https://stackoverflow.com/questions/12287672/links-in-select-dropdown-options"><img src="./de.png"
+                alt="Deutsch"><span>Deutsch</span></a>
+            <a href="#"><img src="./iran.png" alt="Iran"><span> فارسی</span></a>
+            <a href="#"><img src="./kina.png" alt="China"><span> CN/中文</span></a>
+            <a href="#"><img src="./uk.png" alt="Ukrainen"><span>Українська</span></a>
+            <a href="#"><img src="./mk.png" alt="Macedonia"><span>Mакедонски</span></a>    
+    
+          </div>
+        </div>   
+    </header>
+
+
+
         <div class="banner_unterseite">
             <h1>Entdecke die Ukraine:</h1>
             <h2>Schönheit und Geschichte vereint</h2>
@@ -26,8 +59,7 @@
                 <a href="#reise_beginnen">Reise beginnen</a>
             </div>
         </div>
-    </header>
-    <section  id="reise_beginnen" class="main_content_unterseite">        
+        <section id="reise_beginnen" class="main_content_unterseite">        
         <div class="block_main_content_unterseite info_unterseite">
             <div class="text">
                 <p><strong>Die Ukraine</strong>, ein faszinierendes Land in Osteuropa, beeindruckt mit einer reichen Geschichte, atemberaubender Natur und einer vielfältigen Kultur. 
@@ -60,7 +92,7 @@
             <img src="https://seekflag.com/app/uploads/2021/12/Ukraine-03.svg" alt="">
             </div>
     </div>
-    <div class="top_5_places">
+    <div id="top_5_places" class="top_5_places">
             <h2>Top 5 Reiseziele in der Ukraine</h2>
         <div class="places">
                 <div class="places_foto">
@@ -116,7 +148,7 @@
     </div>
     </div>
 
-    <div id="weitere_info" class="weitere_info">
+    <div id="reiseinfo" class="weitere_info">
         <h2>Eine Reise buchen</h2>
     <div class="places">
             <div class="places_foto">
