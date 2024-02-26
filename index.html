@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./basic.css">
   <link rel="stylesheet" href="./style.css">
   <!-- <link rel="stylesheet" href="./ukraine.css"> -->
-  <link rel="stylesheet" href="./alex.style.css">
+  <!-- <link rel="stylesheet" href="./alex.style.css"> -->
 
   <title>LaLa-Land-Reisen</title>
 
@@ -51,14 +51,14 @@
 
 
     <div class="dropdown">
-      <button class="dropbtn"><i class="fa-solid fa-globe fa-xl icon-ju"></i></button>
+      <button class="dropbtn"><i class="fa-solid fa-globe fa-xl icon-ju"></i><span class="sprache"> Sprache</span></button>
       <div class="dropdown-content">
-        <a href="https://stackoverflow.com/questions/12287672/links-in-select-dropdown-options"><img src="./de.png"
-            alt="Deutsch"><span>Deutsch</span></a>
-        <a href="#"><img src="./iran.png" alt="Iran"><span> فارسی</span></a>
-        <a href="#"><img src="./kina.png" alt="China"><span> CN/中文</span></a>
-        <a href="#"><img src="./uk.png" alt="Ukrainen"><span>Українська</span></a>
-        <a href="#"><img src="./mk.png" alt="Macedonia"><span>Mакедонски</span></a>
+        <a href="./index.html"><img src="./de.png"
+            alt="Deutsch"><span class="language">Deutsch</span></a>
+        <a href="#"><img src="./iran.png" alt="Iran"><span class="language"> فارسی</span></a>
+        <a href="#"><img src="./kina.png" alt="China"><span class="language"> CN/中文</span></a>
+        <a href="#"><img src="./uk.png" alt="Ukrainen"><span class="language">Українська</span></a>
+        <a href="#"><img src="./mk.png" alt="Macedonia"><span >Mакедонски</span></a>
 
 
       </div>
@@ -70,7 +70,7 @@
   <!-- Banner Teil -->
   <div class="banner">        
       <h1>Entdecke die Welt</h1>
-      <h2>mit LaLa-Land</h2>
+      <h2>mit unserem Reisebüro <br><br> 'LaLa-Land'</h2>
       <div class="link_banner">
           <a href="#reise_beginn">Reise beginnen</a>      
       </div>
@@ -82,58 +82,131 @@
     <section class="einführung">
       <h3 id="reise_beginn">
         Die schönsten Reisen sind die,<br />
-        die uns zu uns selbst führen
+        die uns zu uns selbst führen <br> <br> 
       </h3>
+      <p>Willkommen bei LaLa-Land Reisen! Entdecke <br> maßgeschneiderte Reiseerlebnisse, exklusive Angebote <br> und persönlichen Service. Wir machen Träume wahr <br> und gestalten unvergessliche Abenteuer rund um die Welt.</p>
       </section>
 
     <!-- to link to china, iran, mazedonien, ukraine  -->
     <div class="container-height">
+      <h3>Reiseziele</h3>
       <div class="reise-ziele" id="ourservice">
-        <h3>Reiseziele</h3>
+       
       </div>      
       <div class="landcards">
 
         <a href="./china.html" class="to-go to-china">
-          <img src="./images/mainpage-imgs/airplane.png" class="plane fly-to-china" alt="">
-          <img src="./images/mainpage-imgs/china-map.png" class="map china-map" alt="">
+          <img src="./images/mainpage-imgs/airplane.png" class="plane fly-to-china" alt="plane-image">
+          <img src="./images/mainpage-imgs/china-map.png" class="map china-map" alt="map-image">
 
-          <div class="card card-china"></div>
+          <div class="welcome-cards"><p>China</p> <br>
+            <img src="./Welcome-Ch.gif" alt="kina" class="team-partner" />
+            <p>
+              <b>
+                Reise nach China: Faszinierende Kultur, antike Wunder, moderne Städte. Erforsche die Vielfalt dieses faszinierenden Landes mit atemberaubenden Landschaften und reicher Geschichte.
+              </b>
+            </p> <br>
+          </div>
         </a>
 
         <a href="./ukraine.html " class="to-go to-ukraine">
-          <img src="./images/mainpage-imgs/airplane.png" class="plane fly-to-ukraine" alt="">
-          <img src="./images/mainpage-imgs/ukraine-map.png" class="map ukraine-map" alt="">
+          <img src="./images/mainpage-imgs/airplane.png" class="plane fly-to-ukraine" alt="plane-image">
+          <img src="./images/mainpage-imgs/ukraine-map.png" class="map ukraine-map" alt="map-image">
 
-          <div class="card card-ukraine">Ukraine</div>
+          <div class="welcome-cards"><p>Ukraine</p> <br>
+            <img src="./Welcome-Ua.gif" alt="ukraine" class="team-partner" />
+            <p>
+              <b>
+                Entdecke die Ukraine: Historische Städte, malerische Landschaften und gastfreundliche Menschen. Ein vielfältiges Reiseziel mit einzigartigem Charme und kulturellem Reichtum.
+              </b>
+            </p> <br>
+          </div>
         </a>
+
 
         <a href="./mazedonien.html" class="to-go to-mazedonien">
-          <img src="./images/mainpage-imgs/airplane.png" class="plane fly-to-mazedonien" alt="">
-          <img src="./images/mainpage-imgs/mazed-map.png" class="map mazodonien-map" alt="">
-
-          <div class="card card-mazedonien">Welcome to Macedonia</div>
+          <img src="./images/mainpage-imgs/airplane.png" class="plane fly-to-mazedonien" alt="plane-image">
+          <img src="./images/mainpage-imgs/mk-map-img.png" class="map mazodonien-map" alt="map-image">
+          
+          <div class="welcome-cards"><p>Mazedonien</p> <br>
+            <img src="./Welcome-Mk-1.gif" alt="dog-image" class="team-partner" />
+            <p>
+              <b>
+                Mazedonien lockt mit atemberaubenden Landschaften, kulturellem Reichtum, gastfreundlichen Menschen und authentischer Küche – ein unvergessliches Reiseerlebnis in Südosteuropa.
+              </b>
+            </p> <br>
+          </div>
         </a>
 
-        <a href="./iran.html" class="to-go to-iran">
-          <img src="./images/mainpage-imgs/airplane.png" class="plane fly-to-iran" alt="">
-          <img src="./images/mainpage-imgs/iran-map.png" class="map iran-map" alt="">
+          <a href="./iran.html" class="to-go to-iran">
+            <img src="./images/mainpage-imgs/airplane.png" class="plane fly-to-iran" alt="plane-image">
+            <img src="./images/mainpage-imgs/iran-map.png" class="map iran-map" alt="map-image">
 
-          <div class="card card-iran">Iran</div>
-        </a>
+            <div class="welcome-cards"><p>Iran</p> <br>
+              <img src="./Welcome-Ir.gif" alt="iran" class="team-partner" />
+              <p>
+                <b>
+                  Im Iran erwarten dich majestätische Paläste, bunte Basare und herzliche Gastfreundschaft. Erkunde die reiche Kultur, antike Stätten und beeindruckende Landschaften dieses einzigartigen Reiseziels im Nahen Osten.
+                </b>
+              </p> <br>
+            </div>
+          </a>
 
       </div>
     </div>
-    <!-- <section>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et dolorum ab corrupti velit tenetur sunt
-                nesciunt provident quod ad vero incidunt, nam voluptate repellat sapiente exercitationem iste nostrum!
-                Dolore, sequi.</p>
-        </section> -->
+
+<div class="tips-titel">
+  <h2>5 Praktische Reisetipps für unvergessliche Abenteuer 
+  </h2>
+
+</div>
+<div class="tips">
+
+   <section class="travel-tips">
+    <p>
+      Das Reisen ist eine der lohnendsten Erfahrungen im Leben. Es ermöglicht dir, neue Kulturen zu entdecken, atemberaubende Landschaften zu erkunden und unvergessliche Erinnerungen zu sammeln. Damit deine nächste Reise reibungslos verläuft und voller unvergesslicher Momente steckt, hier sind 5 praktische Reisetipps, die dir dabei helfen werden:
+    </p>
+
+    <ol>
+      <li>Plane deine Reise im Voraus
+Eine gründliche Planung ist der Schlüssel zu einer erfolgreichen Reise. Recherchiere dein Reiseziel, um die besten Sehenswürdigkeiten, Aktivitäten und kulturellen Eigenheiten zu entdecken. Buche deine Unterkünfte im Voraus, um Enttäuschungen zu vermeiden, besonders in stark frequentierten Reisezeiten.
+      </li>
+      <li>
+        Packe leicht und effizient
+Versuche, nur das Nötigste einzupacken. Überlege dir gut, was du wirklich benötigst, und vermeide übermäßiges Gepäck. Leichtes Reisen erleichtert nicht nur deine Fortbewegung, sondern gibt dir auch mehr Flexibilität während deiner Reise.
+      </li>
+    </ol>
+   </section>
+
+
+   <section class="travel-tips">
+    <ol>
+      <li>
+        Lerne die lokale Kultur kennen
+        Respektiere die lokale Kultur und Traditionen deines Reiseziels. Mache dich mit den örtlichen Gepflogenheiten vertraut, um Missverständnisse zu vermeiden und dich besser in die Gemeinschaft einzufügen.
+      </li>
+      <li>
+        Sei offen für neue Erfahrungen
+Das wichtigste beim Reisen ist, offen für neue Erfahrungen zu sein. Sei neugierig, abenteuerlustig und bereit, dich von der Schönheit und Vielfalt unserer Welt überraschen zu lassen. Sei flexibel und bereit, dich an unerwartete Situationen anzupassen.
+      </li>
+      <li>
+        Respektiere die Umwelt und die Einheimischen
+Reise verantwortungsbewusst und hinterlasse keinen ökologischen Fußabdruck. Achte darauf, die Umwelt zu respektieren und nachhaltige Praktiken zu fördern. Sei respektvoll gegenüber den Einheimischen und ihren Traditionen.
+      </li>
+    </ol>
+    <p>
+      Indem du diese praktischen Reisetipps beherzigst, kannst du sicher sein, dass deine nächste Reise zu einem unvergesslichen Abenteuer wird. Genieße jeden Moment und lass dich von den Wundern der Welt inspirieren!
+    </p>
+  </section>
+</div>
+
+
   </main>
 
 
   <!-- Team Partner -->
   <section class="team" id="our-team">
-    <h2>Das Team der Webentwicklungspartner</h2>
+    <h2>Deine Reiseberater</h2>
     <div class="alex">
       <!-- Jian -->
       <div class="team-cards"><p>Juan Lu</p> <br>
