@@ -150,11 +150,13 @@ main {
   text-align: center;
   font-size: 4rem;
   color: #004aad;
+  font-style: oblique;
 }
 
 .einführung > p {
   color: #415e7a;
   font-size: 3rem;
+  font-style: normal;
 }
 
 .landcards {
@@ -237,6 +239,7 @@ main {
 .tips-titel h2 {
   color: #004aad;
   font-size: 5rem;
+  font-style: oblique;
 }
 
 .tips strong {
@@ -347,7 +350,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #d6d3d3;
+  background-color: rgba(214, 211, 211, 0.5);
   height: 30rem;
   text-align: center;
   padding-top: 1rem;
@@ -382,6 +385,10 @@ footer {
   /* height: 100%; */
   margin: 0 0.5rem 0 0.5rem;
   font-size: 3.8rem;
+}
+
+.icon a {
+  color: #004aad;
 }
 
 .icons {
@@ -613,6 +620,7 @@ input[type="submit"] {
     font-size: 5rem;
     color: #004aad;
     margin-bottom: 3rem;
+    font-style: oblique;
   }
   .reise-ziele + h3 {
     display: none;
