@@ -1,14 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-:root {
-    font-size: 62.5%;
-}
 
-body  {
+.body-bgp  {
             
     background: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=1380&t=st=1708457139~exp=1708457739~hmac=4d70f1a20d9ac15968084a7970de501b612e9520c76411076633c328f56ba043");
     background-size: cover;
@@ -23,29 +15,39 @@ body  {
         }
 
     .logo {
-    width: 50px;
-    height: 50px;
+    width: 5rem;
+    height: 5rem;
 }
     .logo img {
         width: 100%;
     }
 
     .banner_unterseite {
+/*      
         height: 90vh;
         background-image: url("https://irantours24.com/wp-content/uploads/2021/07/Iran_English-behine.jpg");
+        background-size: cover;
+        background-position: center; */
+        margin-top: 13vh;
+        height: 87vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url("https://bpic.51yuansu.com/backgd/cover/00/77/36/65d5b27009047_800.jpg?x-oss-process=image/resize,w_780/sharpen,100");
         background-size: cover;
         background-position: center;
 
     }
 
-    h1 {
+    .banner_unterseite h1 {
         font-size: 6rem;
         text-align: center;
-        padding-top: 5rem;
+        /* padding-top: 5rem; */
         color: #575757;
     }
 
-    h4 {
+    .banner_unterseite h4 {
         font-size: 3rem;
         text-align: center;
         padding-top: 5rem;
@@ -70,7 +72,9 @@ body  {
     }
 
     .main_content_unterseite {
-        margin-top: 10rem;
+        /* margin-top: 10rem; */
+        margin-top: 4rem;
+        margin-bottom: 4rem;
     }
 
     .land_map, .places_foto {
@@ -81,15 +85,21 @@ body  {
         align-items: center;
     }
     .places, .info_unterseite {
-        height: 300px;
+        /* height: 300px;
         display: flex;
         justify-content: center;
+        margin-top: 4rem;
+        gap: 30px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-top: 4rem;
         gap: 30px;
     }
 
     .text, .main-text {
-        width: 35%;
+        /* width: 35%; */
         display: flex;
         flex-direction: column;
         align-items: center;
