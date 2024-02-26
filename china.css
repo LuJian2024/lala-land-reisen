@@ -23,25 +23,33 @@
 }
 
 .banner_chinaseite{
-    height: 100vh;
+    /* header is position:fixed, no place */
+    margin-top: 13vh;
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url("https://bpic.51yuansu.com/backgd/cover/00/77/36/65d5b27009047_800.jpg?x-oss-process=image/resize,w_780/sharpen,100");
     background-size: cover;
     background-position: center;
+    /* padding-top: 28rem; */
 
 }
 
-h1 {
+.banner_chinaseite h1 {
     font-size: 6rem;
     text-align: center;
-    padding-top: 15rem;
-    color: #a88e39;
+    /* margin-top: 25rem; */
+    /* padding-top: 15rem; */
+    color: #f28136;
 }
 
-h2 {
+.banner_chinaseite >h2 , .top_5_places >h2, .weitere_info>h2{
     font-size: 5rem;
     text-align: center;
     padding-top: 4rem;
-    color: #a88e39;
+    color: #f28136;
 }
 
 .link_banner_unterseite {

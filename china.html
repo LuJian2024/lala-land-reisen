@@ -29,13 +29,17 @@
     </div>
 
     <div class="logo">
-      <img src="./images/LaLa-Land (4).gif" alt="Logo" />
+        <h1>
+            <a href="./index.html">lala-land</a>
+        </h1>
+      <!-- <img src="./images/LaLa-Land (4).gif" alt="Logo" /> -->
     </div>
 
     <nav>
+        <a href="./index.html">Home</a>
       <a href="#home">Start</a>
-      <a href="#ourservice">Reiseziele</a>
-      <a href="#our-team">Contact us</a>
+      <a href="#top5">Reiseinfo</a>
+      <a href="#our-info">Contact us</a>
     </nav>
 
 
@@ -90,7 +94,7 @@
                     </tr>
                     <tr>
                         <td>Sprache</td>
-                        <td>Ukrainisch</td>
+                        <td>Chinesisch</td>
                     </tr>
                     <tr>
                         <td>Bevölkerungsdichte</td>
@@ -104,7 +108,7 @@
             </div>
         </div>
         <div id="top5" class="top_5_places">
-            <h2>Top 5 Reiseziele in der Ukraine</h2>
+            <h2>Top 5 Reiseziele in der China</h2>
             <div class="places">
                 <div class="places_foto">
                     <img src="https://image.cdn-eztravel.com.tw/e89kOPkx0w9XueFGE98ejA1MEBuaATxOl2Kz0rvaLIU/g:ce/aHR0cDovL3ZhY2F0aW9uLmNkbi1lenRyYXZlbC5jb20udHcvaW1nL1ZEUi9DTl8yNzU0OTA1ODEuanBn.jpg"
@@ -192,7 +196,7 @@
                         allowfullscreen></iframe>
                 </div>
                 <div class="main-text">
-                    <h3>Tauche ein in Abenteuer in der Ukraine und du wirst es nicht bereuen.</h3>
+                    <h3>Tauche ein in Abenteuer in der China und du wirst es nicht bereuen.</h3>
                     <p>Unten findest du Informationen zum Buchen von Hotels und Tickets. Fang jetzt an, deine
                         unvergessliche Reise zu planen!</p>
                     <a href="https://www.booking.com/city/ua/lviv.uk.html" target="_blank">Hotel buchen</a>
@@ -201,12 +205,11 @@
             </div>
     </section>
 
-     <!-- Footer Teil  -->
+   <!-- Footer Teil  -->
   <footer>
     <!-- form Teil -->
-    <div class="contact-info">
-      <a href="#contact-form">contact us</a>
-      <!-- <h3>contact us</h3> -->
+    <div class="contact-info" id="our-info">
+
       <div class="icons">
         <ul class="icon-list">
           <li class="icon">
@@ -220,9 +223,37 @@
           </li>
         </ul>
       </div>
+
+      <div class="contact-area">
+        <legend>Do you want to contact us?</legend>
+
+        <!-- <input type="submit" value="thank you" id="thanks"> -->
+        <input type="radio" name="contact" id="yes">yes
+        <input type="radio" name="contact" id="no">no,thanks
+        <!-- <label for="submit">submit</label> -->
+        <!-- <input type="checkbox" id="submit"> -->
+        <form action="#" method="post" class="contact-form">
+          <div>
+            <label for="name">name:</label>
+
+            <input type="text" id="name"><br><br>
+            <label for="email">email:</label>
+            <input type="email" name="" id="email"><br><br>
+            <label for="time">choose a date</label>
+            <input type="date" id="time"><br><br>
+            <label for="more-info">Plese give us more information about you:</label><br>
+            <textarea name="" id="" cols="30" rows="10" id="more-info"></textarea><br><br>
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+      <!-- <a href="#contact-form">contact us</a> -->
+      <!-- <h3>contact us</h3> -->
+
     </div>
     <p class="autors">&copy;2024 Anna Julijana Jian Alex</p>
   </footer>
+
 </body>
 
 </html>
