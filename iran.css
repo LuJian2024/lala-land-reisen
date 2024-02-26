@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body  {
+            
+    background: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=1380&t=st=1708457139~exp=1708457739~hmac=4d70f1a20d9ac15968084a7970de501b612e9520c76411076633c328f56ba043");
+    background-size: cover;
+    font-size: 1.6rem;  
+    }
+
+        
+    .menu_unterseite {
+            display: flex;
+            justify-content: space-between;
+            height: 10vh;
+        }
+
+    .logo {
+    width: 50px;
+    height: 50px;
+}
+    .logo img {
+        width: 100%;
+    }
+
+    .banner_unterseite {
+        height: 90vh;
+        background-image: url("https://irantours24.com/wp-content/uploads/2021/07/Iran_English-behine.jpg");
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    h1 {
+        font-size: 6rem;
+        text-align: center;
+        padding-top: 5rem;
+        color: #575757;
+    }
+
+    h4 {
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 5rem;
+        color: #626262;
+    }
+
+    .link_banner_unterseite {
+        position: absolute;
+        bottom: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .link_banner_unterseite a {   
+        background-color: rgb(3, 137, 168, 0.8);
+        text-decoration: none;
+        font-size: 3rem;
+        border-radius: 10%;
+        padding: 1.5rem;
+        color: #B4C1C8;
+    }
+
+    .main_content_unterseite {
+        margin-top: 10rem;
+    }
+
+    .land_map, .places_foto {
+    
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .places, .info_unterseite {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+        gap: 30px;
+    }
+
+    .text, .main-text {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid black; */
+        gap: 10px;
+    }
+
+    .land_map img,  img, iframe {
+        width: 500px;
+        height: 300px;
+        border-radius: 25% 0% ;         
+    }
+    
+
+    .text a, .main-text a {
+        text-decoration: none;
+        border-radius: 10%;
+        background-color: rgb(3, 137, 168, 0.5);
+        padding: 0.7rem;
+        color: black;
+    }
+
+    table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        th, td {
+            text-align: center;
+            padding: 8px;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #B4C1C8;
+        }
+
+        
