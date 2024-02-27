@@ -43,6 +43,7 @@
     /* margin-top: 25rem; */
     /* padding-top: 15rem; */
     color: #f28136;
+    -webkit-text-stroke: 1px white;
 }
 
 .banner_chinaseite >h2 , .top_5_places >h2, .weitere_info>h2{
@@ -50,6 +51,7 @@
     text-align: center;
     padding-top: 4rem;
     color: #f28136;
+    -webkit-text-stroke: 1px white;
 }
 
 .link_banner_unterseite {
@@ -167,12 +169,12 @@ tr:nth-child(odd) {
 /* @media screen and (min-width: 768px) { */
 /* Tab breakpoint 600px-1023px */
 @media screen and (min-width: 768px) and (max-width: 991px){
-    /* .land_map img,
+    .land_map img,
     .places img,
     iframe {
         width: 600px;
         height: 350px;
-    } */
+    }
 
 }
 
