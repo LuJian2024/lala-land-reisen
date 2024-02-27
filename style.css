@@ -1,4 +1,8 @@
+
 body {
+ /* mobile first */
+ font-size: 1.4rem;
+
   /* background-image: url("https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg?w=1060&t=st=1708877103~exp=1708877703~hmac=65bee5f56cb8e1088394409ea144f99b295d659b45b106700a8185701b97f1c4"); */
   background-size: cover;
   background: linear-gradient(
@@ -53,6 +57,7 @@ nav a {
   background: url(./Logo-grau-blau.gif) no-repeat center/cover;
   font-size: 0;
 }
+
 .logo img {
   width: 100%;
 }
@@ -95,14 +100,14 @@ header nav {
 }
 
 .banner h1 {
-  font-size: 6rem;
+  font-size: 4rem;
   text-align: center;
   padding-top: 3rem;
   color: #415e7a;
 }
 
 .banner h2 {
-  font-size: 5rem;
+  font-size: 3rem;
   text-align: center;
   padding-top: 1rem;
   color: #415e7a;
@@ -130,12 +135,19 @@ main {
   margin-top: 13vh;
 }
 
-.reise-ziele h3 {
+/* .reise-ziele h3 {
   display: none;
-}
+} */
 
-.container-height {
-  height: 100vh;
+.container-height > h3 {
+  display: block;
+  /* height: 50%; */
+  /* line-height: 50rem; */
+  text-align: center;
+  font-size: 5rem;
+  color: #004aad;
+  margin-bottom: 3rem;
+  font-style: oblique;
 }
 
 .reise-ziele + h3 {
@@ -143,6 +155,7 @@ main {
   text-align: center;
   color: #f4d965;
 }
+
 .einführung {
   margin-bottom: 10rem;
   /* height: 20rem; */
@@ -195,13 +208,16 @@ main {
 /*Mehr Tekst*/
 
 .tips-titel {
-  margin-top: 25rem;
+  margin-top: 2rem;
   text-align: center;
   margin-bottom: 10rem;
+  /* border: 1px solid black; */
+  /* display: none; */
 }
 
 .travel-tips {
-  width: 35%;
+  /* width: 35%; */
+  width: 80%;
   /* margin: 0 auto; */
   /* margin-top: 30rem; */
   line-height: 2.5rem;
@@ -214,7 +230,7 @@ main {
 }
 
 #reisetipps {
-  padding-top: 15rem;
+  padding-top: 12rem;
 }
 
 .mirror {
@@ -223,10 +239,14 @@ main {
 
 .tips {
   display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
   gap: 2rem;
   /* width: 70%; */
   justify-content: center;
   /* margin: 0 auto; */
+  /* display: none; */
 }
 
 .travel-tips li::before {
@@ -335,14 +355,7 @@ main {
   margin-bottom: 5rem;
 }
 
-/* @media screen and (max-width:750px) {
-    .alex {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-} */
+
 
 /* footer teil */
 footer {
@@ -354,6 +367,7 @@ footer {
   height: 30rem;
   text-align: center;
   padding-top: 1rem;
+  /* overflow: hidden; */
 }
 
 .logo-footer img {
@@ -376,6 +390,7 @@ footer {
 }
 
 .icon-list {
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -398,30 +413,89 @@ footer {
 }
 .contact-area {
   flex: 2;
+  overflow: hidden;
   /* margin-top: 4rem; */
 }
 
+/* form teil */
 form {
-  /* background-color: #fff; */
+  padding-top: 1rem;
+  width: 50%;
+  height: 11rem;
+  /* background-color:#ad7508; */
+  background: linear-gradient(
+    180deg,
+    rgb(214, 217, 223) 0%,
+    rgb(255, 255, 255) 50%,
+    rgb(255, 240, 120) 100%
+  );
   visibility: hidden;
   display: none;
+  border-radius: 25% 0;
+  /* overflow: hidden; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  
 }
 
-#yes:checked ~ form {
+input[type="email"],
+input[type="text"],
+input[type="date"] {
+
+  border: none;
+  /* height: 2rem;
+  background: transparent; */
+}
+.fa-calendar-days{
+  margin-left: -5.5rem;
+} 
+.contact-form input {
+  height: 2rem;
+  background: transparent;
+} 
+
+.contact-form input:focus{
+  outline-color:#f4d965;
+} 
+
+input[type="submit"] {
+  border: 2px solid #575553;
+  border-radius: 5px;
+  width: 25%;
+  /* height: 2rem;
+  background: transparent; */
+}
+
+.formicon i,
+input[type="submit"],
+input::placeholder {
+  color: #575553;
+}
+
+#yes:checked~form {
   visibility: visible;
   display: block;
   position: absolute;
-  transform: translate(-1rem, -42rem);
-  /* right: 0; */
+  transform: translate(3rem, -18rem);
 }
 
 #no:checked ~ form {
   visibility: hidden;
 }
 
-.contact-form div {
-  width: 30rem;
-  height: 40rem;
+.contact{
+  color: #004aad;
+  font-size: 3rem;
+}
+.yes, .no{
+  color: #004aad;
+  font-size: 2rem;
+}
+/* .contact-form { */
+  /* width: 30rem;
+  height: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -430,14 +504,15 @@ form {
 
   background-color: gainsboro;
   border: 3px dotted #004aad;
-}
 
-input[type="submit"] {
-  color: #004aad;
-  padding: 5px;
-  margin-bottom: 5px;
-}
 
+  background-color: #f4d965;*/
+/* } */
+
+hr{
+  height: 0.1rem;
+  color: #000;
+}
 .autors {
   margin-top: auto;
 }
@@ -471,7 +546,7 @@ input[type="submit"] {
 
 .dropbtn {
   /* padding: 10px; */
-  font-size: 2em;
+  font-size: 2rem;
   background-color: transparent;
   border: none;
   color: #004aad;
@@ -516,9 +591,25 @@ input[type="submit"] {
 }
 
 /* contact Teil Alex */
+.alex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team-cards{
+  margin-bottom: 10rem;
+}
 
-/* Tab breakpoint 450px-800px */
+
+/* Tab breakpoint 600px-1023px */
+/* why  @media screen and (min-width: 599px) not correct???*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    /* Tablet */
+    font-size: 1.6rem;
+  }
+
   header {
     display: flex;
   }
@@ -535,11 +626,19 @@ input[type="submit"] {
     display: flex;
     /* display: block; */
   }
-
+  nav a {
+    /* color: #004aad; */
+    margin-right: 2rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+  }
   .dropbtn .sprache {
     display: inline-block;
   }
-
+  .dropbtn {
+    /* padding: 10px; */
+    font-size: 2rem;
+  }
   /* header nav ul {
     display: flex;
     gap: 15px;
@@ -550,21 +649,32 @@ input[type="submit"] {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  .to-go {
+  .to-go{
     margin: 0 auto;
   }
-
+  /* .travel-tips {
+    width: 35%;
+  } */
+  
   .alex {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 2rem;
+    gap: 5rem;
     /* padding: 5rem; */
   }
 }
 
-/* Computer breakpoint >800px */
+
+
+/* Computer breakpoint >992px */
 @media screen and (min-width: 992px) {
+  body {
+    /* compute */
+    font-size: 1.8rem;
+  }
+
+
   header {
     display: flex;
   }
@@ -585,7 +695,17 @@ input[type="submit"] {
   .dropbtn .sprache {
     display: inline-block;
   }
+  nav a {
+    /* color: #004aad; */
+    margin-right: 2rem;
+    margin-left: 3rem;
+    font-size: 3rem;
+  }
 
+  .dropbtn {
+    /* padding: 10px; */
+    font-size: 3rem;
+  }
   .banner h1 {
     padding-left: 50rem;
     padding-top: 35rem;
@@ -595,7 +715,20 @@ input[type="submit"] {
     padding-left: 50rem;
     padding-top: 5rem;
   }
-
+  .banner h1 {
+    font-size: 6rem;
+    text-align: center;
+    /* padding-top: 3rem; */
+    /* color: #415e7a; */
+  }
+  
+  .banner h2 {
+    font-size: 5rem;
+    text-align: center;
+    /* padding-top: 1rem; */
+    /* color: #415e7a; */
+  }
+  
   .link_banner {
     padding-left: 50rem;
   }
@@ -610,6 +743,9 @@ input[type="submit"] {
     /* background-color: greenyellow; */
     background: url(https://cdn.pixabay.com/photo/2012/04/11/15/48/continents-28616_1280.png)
       no-repeat center/cover;
+  }
+  .container-height {
+    height: 100vh;
   }
 
   .container-height > h3 {
@@ -632,7 +768,21 @@ input[type="submit"] {
     flex-direction: row;
     gap: 5rem;
   }
-
+  .travel-tips {
+    width: 35%;
+    height: 50rem;
+  }
+  .tips{
+    flex-direction: row;
+ 
+  }
+  .tips-titel {
+    margin-top: 25rem;
+    text-align: center;
+    margin-bottom: 10rem;
+    /* border: 1px solid black; */
+    /* display: none; */
+  }
   .alex {
     /* display: flex; */
     flex-direction: row;
@@ -661,15 +811,15 @@ input[type="submit"] {
     /* opacity: 0;    */
   }
 
-  .to-go:hover .card {
-    transform: scale(1.5);
-  }
-  /* china */
-  .to-china:hover .fly-to-china {
-    animation: gotochina 1s;
-    /* animation-duration: 3s; */
-    animation-fill-mode: forwards;
-  }
+    .to-go:hover .card{
+        transform: scale(1.5);
+    }
+    /* china */
+    .to-china:hover .fly-to-china {
+        animation: gotochina 1s;
+        /* animation-duration: 3s; */
+        animation-fill-mode: forwards;
+    }
 
   @keyframes gotochina {
     0% {
@@ -680,7 +830,7 @@ input[type="submit"] {
       visibility: visible;
       display: block;
       /* opacity: 1; */
-      transform: translate(850px, -330px);
+      transform: translate(1200px, -330px);
     }
   }
 
@@ -689,15 +839,16 @@ input[type="submit"] {
     /* opacity: 1; */
     display: block;
     position: relative;
-    transform: translate(870px, -355px);
+    transform: translate(1200px, -355px);
   }
 
-  /* ukraine */
-  .to-ukraine:hover .fly-to-ukraine {
-    animation: gotoukraine 1s;
-    /* animation-duration: 3s; */
-    animation-fill-mode: forwards;
-  }
+    /* ukraine */
+    .to-ukraine:hover .fly-to-ukraine {
+        animation: gotoukraine 1s;
+        /* animation-duration: 3s; */
+        animation-fill-mode: forwards;
+    }
+  
 
   @keyframes gotoukraine {
     0% {
@@ -708,7 +859,7 @@ input[type="submit"] {
       visibility: visible;
       display: block;
       /* opacity: 1; */
-      transform: translate(250px, -310px);
+      transform: translate(400px, -340px);
     }
   }
 
@@ -717,7 +868,7 @@ input[type="submit"] {
     /* opacity: 1; */
     display: block;
     position: relative;
-    transform: translate(280px, -325px);
+    transform: translate(390px, -355px);
   }
 
   /* mazedonien */
@@ -745,7 +896,7 @@ input[type="submit"] {
     /* opacity: 1; */
     display: block;
     position: relative;
-    transform: translate(20px, -325px);
+    transform: translate(15px, -325px);
   }
 
   /* iran */
@@ -764,7 +915,7 @@ input[type="submit"] {
       visibility: visible;
       /* display: block; */
       opacity: 1;
-      transform: translate(-180px, -240px);
+      transform: translate(-195px, -245px);
     }
   }
 
@@ -773,6 +924,6 @@ input[type="submit"] {
     /* opacity: 1; */
     display: block;
     position: relative;
-    transform: translate(-170px, -250px);
+    transform: translate(-195px, -255px);
   }
 }

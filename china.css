@@ -102,13 +102,16 @@
 }
 
 .land_map img,
-.places img,
+
 iframe {
-    width: 300px;
-    height: 180px;
+    width: 30rem;
+    height: 18rem;
     border-radius: 25% 0%;
 }
-
+.places img{
+    width: 30rem;
+    height: 18rem;
+}
 
 .text a,
 .main-text a {
@@ -128,16 +131,42 @@ table {
 th,
 td {
     text-align: center;
-    padding: 8px;
+    padding: 0.8rem;
 }
 
 tr:nth-child(odd) {
     background-color: #B4C1C8;
 }
 
+/* Fotos bewegen */
+.move-fotos{
+    width: 30rem;
+    height: 18rem;
+    /* margin: 100px auto; */
+    /* border: 4px solid #000; */
+    border-radius: 25% 0;
+    overflow: hidden;
+}
 
-@media screen and (min-width: 768px) {
+.move-fotos ul{
+    width: 90rem;
+    display: flex;
+    animation: movepics 20s infinite linear;
+}
 
+@keyframes movepics{
+    to{
+        transform: translateX(-60rem);
+    }
+}
+
+.move-fotos:hover ul{
+    animation-play-state: paused;
+}
+
+/* @media screen and (min-width: 768px) { */
+/* Tab breakpoint 600px-1023px */
+@media screen and (min-width: 768px) and (max-width: 991px){
     .land_map img,
     .places img,
     iframe {
@@ -147,21 +176,29 @@ tr:nth-child(odd) {
 
 }
 
+/* Computer breakpoint >1023px */
+
 @media screen and (min-width: 992px) {
 
     .places,
     .info_unterseite {
-        height: 300px;
+        height: 30rem;
         flex-direction: row;
         justify-content: center;
         margin-top: 4rem;
-        gap: 30px;
+        gap: 3rem;
+    }
+
+    .land_map
+   {
+
+        width: 35%;
+    
     }
 
     .land_map,
     .places_foto {
 
-        width: 35%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -180,11 +217,29 @@ tr:nth-child(odd) {
     .land_map img,
     .places img,
     iframe {
-        width: 500px;
-        height: 300px;
+        width: 50rem;
+        height: 30rem;
     }
 
     .main_content_unterseite {
         margin-top: 10rem;
+    }
+
+    .move-fotos{
+        width: 50rem;
+        height: 30rem;
+        /* margin: 100px auto; */
+        /* border: 4px solid #000; */
+        overflow: hidden;
+    }
+    .move-fotos ul{
+        width: 150rem;
+        /* display: flex; */
+        animation: movepics 20s infinite linear;
+    }
+    @keyframes movepics{
+        to{
+            transform: translateX(-100rem);
+        }
     }
 }
