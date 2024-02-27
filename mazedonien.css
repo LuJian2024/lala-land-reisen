@@ -1,0 +1,182 @@
+.body-bgp {
+  background: url("./images/mainpage-imgs/hinter-5.avif");
+  background-size: cover;
+  font-size: 1.6rem;
+}
+
+.menu_unterseite {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.banner_chinaseite {
+  /* header is position:fixed, no place */
+  margin-top: 13vh;
+  height: 87vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/mainpage-imgs/kaneo-2.jpg");
+  background-size: cover;
+  background-position: center;
+  /* padding-top: 28rem; */
+}
+
+.banner_chinaseite h1 {
+  font-size: 6rem;
+  text-align: center;
+  /* margin-top: 25rem; */
+  /* padding-top: 15rem; */
+  color: #f28136;
+}
+
+.banner_chinaseite > h2,
+.top_5_places > h2,
+.weitere_info > h2 {
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 4rem;
+  color: #f28136;
+}
+
+.link_banner_unterseite {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.link_banner_unterseite a {
+  background-color: rgb(3, 137, 168, 0.8);
+  text-decoration: none;
+  font-size: 3rem;
+  border-radius: 10%;
+  padding: 1.5rem;
+  color: #b4c1c8;
+}
+
+.main_content_unterseite {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.land_map,
+.places_foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.places,
+.info_unterseite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 30px;
+}
+
+.text,
+.main-text {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.land_map img,
+.places img,
+iframe {
+  width: 300px;
+  height: 180px;
+  border-radius: 25% 0%;
+}
+
+.text a,
+.main-text a {
+  text-decoration: none;
+  border-radius: 10%;
+  background-color: rgb(3, 137, 168, 0.5);
+  padding: 0.7rem;
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #b4c1c8;
+}
+
+@media screen and (min-width: 768px) {
+  .land_map img,
+  .places img,
+  iframe {
+    width: 600px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .places,
+  .info_unterseite {
+    height: 300px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 30px;
+  }
+
+  .land_map,
+  .places_foto {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text,
+  .main-text {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .land_map img,
+  .places img,
+  iframe {
+    width: 500px;
+    height: 300px;
+  }
+
+  .main_content_unterseite {
+    margin-top: 10rem;
+  }
+}
