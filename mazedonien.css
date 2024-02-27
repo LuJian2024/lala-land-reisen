@@ -4,6 +4,10 @@
   font-size: 1.6rem;
 }
 
+/* #places-pad {
+  padding-top: 1rem;
+} */
+
 .menu_unterseite {
   display: flex;
   justify-content: space-between;
@@ -19,7 +23,7 @@
   width: 100%;
 }
 
-.banner_chinaseite {
+.banner_mk_seite {
   /* header is position:fixed, no place */
   margin-top: 13vh;
   height: 87vh;
@@ -30,24 +34,27 @@
   background-image: url("./images/mainpage-imgs/kaneo-2.jpg");
   background-size: cover;
   background-position: center;
-  /* padding-top: 28rem; */
+  /* padding-top: 10rem; */
+  /* padding-left: 1rem; */
 }
 
-.banner_chinaseite h1 {
+.banner_mk_seite h1 {
   font-size: 6rem;
   text-align: center;
   /* margin-top: 25rem; */
   /* padding-top: 15rem; */
-  color: #f28136;
+  color: #004aad;
+  -webkit-text-stroke: 2px #b4c1c8;
 }
 
-.banner_chinaseite > h2,
+.banner_mk_seite > h2,
 .top_5_places > h2,
 .weitere_info > h2 {
   font-size: 5rem;
   text-align: center;
   padding-top: 4rem;
-  color: #f28136;
+  color: #004aad;
+  -webkit-text-stroke: 2px #b4c1c8;
 }
 
 .link_banner_unterseite {
@@ -97,6 +104,11 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+
+.main-text h3,
+p {
+  text-align: center;
 }
 
 .land_map img,
