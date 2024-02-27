@@ -1,7 +1,16 @@
+
 body {
-  background-image: url("https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg?w=1060&t=st=1708877103~exp=1708877703~hmac=65bee5f56cb8e1088394409ea144f99b295d659b45b106700a8185701b97f1c4");
+ /* mobile first */
+ font-size: 1.4rem;
+
+  /* background-image: url("https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg?w=1060&t=st=1708877103~exp=1708877703~hmac=65bee5f56cb8e1088394409ea144f99b295d659b45b106700a8185701b97f1c4"); */
   background-size: cover;
-  
+  background: linear-gradient(
+    45deg,
+    rgb(214, 217, 223) 0%,
+    rgb(255, 255, 255) 50%,
+    rgb(255, 240, 120) 100%
+  );
 }
 
 header {
@@ -48,6 +57,7 @@ nav a {
   background: url(./Logo-grau-blau.gif) no-repeat center/cover;
   font-size: 0;
 }
+
 .logo img {
   width: 100%;
 }
@@ -90,10 +100,10 @@ header nav {
 }
 
 .banner h1 {
-    font-size: 6rem;
-    text-align: center;
-    padding-top: 3rem;
-    color: #415e7a;      
+  font-size: 6rem;
+  text-align: center;
+  padding-top: 3rem;
+  color: #415e7a;
 }
 
 .banner h2 {
@@ -101,7 +111,7 @@ header nav {
   text-align: center;
   padding-top: 1rem;
   color: #415e7a;
-  }
+}
 
 .link_banner {
   position: absolute;
@@ -111,13 +121,13 @@ header nav {
   justify-content: center;
 }
 
-.link_banner a {   
-  background-color: rgb(65, 94, 122, 0.7); 
+.link_banner a {
+  background-color: rgb(65, 94, 122, 0.7);
   text-decoration: none;
   font-size: 3rem;
   border-radius: 10%;
   padding: 1.5rem;
-  color: #B4C1C8;
+  color: #b4c1c8;
 }
 
 /* Main Teil */
@@ -138,13 +148,19 @@ main {
   text-align: center;
   color: #f4d965;
 }
+
 .einführung {
   margin-bottom: 10rem;
-  height: 20rem;
+  /* height: 20rem; */
   /* line-height: 2rem; */
   text-align: center;
   font-size: 4rem;
   color: #004aad;
+}
+
+.einführung > p {
+  color: #415e7a;
+  font-size: 3rem;
 }
 
 .landcards {
@@ -180,6 +196,41 @@ main {
   border-radius: 25% 0;
 }
 
+/*Mehr Tekst*/
+
+.tips-titel {
+  margin-top: 30rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.travel-tips {
+  width: 35%;
+  /* margin: 0 auto; */
+  /* margin-top: 30rem; */
+  line-height: 2.5rem;
+  box-shadow: 0px 0px 10px rgb(124, 152, 176);
+  color: #004aad;
+  background: rgb(235, 233, 233);
+  border-radius: 25% 0;
+  /* padding-top: 3rem; */
+  padding: 4rem;
+}
+
+.tips {
+  display: flex;
+  gap: 2rem;
+  /* width: 70%; */
+  justify-content: center;
+  /* margin: 0 auto; */
+}
+
+.travel-tips li::before {
+  content: "\f5c1";
+  font-family: "FontAwesome";
+  margin-right: 10px;
+}
+
 .card-china {
   background: url(./Welcome-Ch.gif) no-repeat center/cover;
 }
@@ -202,8 +253,73 @@ main {
 
 /* Team Teil */
 #our-team {
-  margin-top: 10rem;
+  margin-top: 40rem;
 }
+
+.alex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-cards {
+  box-shadow: 0px 0px 10px rgb(124, 152, 176);
+  background: linear-gradient(
+    90deg,
+    rgb(149, 153, 163) 0%,
+    rgb(255, 255, 255) 50%,
+    rgb(255, 240, 120) 100%
+  );
+
+  /* background: linear-gradient(180deg, rgba(145,149,150,1) 0%, rgba(142,152,170,1) 43%, rgba(94,181,217,1) 60%, rgba(255,218,0,1) 100%); */
+  /* background: rgb(234, 234, 235); */
+  padding: 2rem;
+  border-radius: 25% 0;
+}
+
+.welcome-cards {
+  margin-bottom: 1rem;
+  box-shadow: 0px 0px 10px rgb(124, 152, 176);
+  /* background: linear-gradient(
+    90deg,
+    rgb(149, 153, 163) 0%,
+    rgb(255, 255, 255) 50%,
+    rgb(255, 240, 120) 100% 
+  ); */
+  width: 30rem;
+  border-radius: 25% 0;
+  text-align: center;
+  padding: 2rem;
+  color: #004aad;
+  background: rgb(235, 233, 233);
+}
+
+.team-partner {
+  width: 210px;
+  height: 220px;
+  border-radius: 25% 0;
+  /* border: 8px solid rgb(242, 214, 71); */
+  box-shadow: 0px 0px 10px rgb(124, 104, 67);
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.team {
+  text-align: center;
+  padding: 30px;
+  /* box-shadow: inset 0px 0px 20px rgb(167, 220, 253); */
+  /* padding: 30px; */
+  margin: 30px;
+}
+
+#our-team > h2 {
+  font-style: oblique;
+  color: #7c98b0;
+  font-size: 4rem;
+}
+
+
 
 /* footer teil */
 footer {
@@ -211,10 +327,15 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(148, 145, 139, 0.32);
+  background-color: rgb(213, 210, 210);
   height: 20rem;
   text-align: center;
   padding-top: 1rem;
+}
+
+.logo-footer img{
+  width: 13rem;
+  height: 13rem;
 }
 .contact-info {
   width: 100%;
@@ -226,6 +347,7 @@ footer {
 }
 
 .icon-list {
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -247,27 +369,76 @@ footer {
   /* margin-top: 4rem; */
 }
 
+/* form teil */
 form {
-  /* background-color: #fff; */
+  padding-top: 1rem;
+  width: 50%;
+  height: 11rem;
+  /* background-color:#ad7508; */
+  background: linear-gradient(
+    180deg,
+    rgb(214, 217, 223) 0%,
+    rgb(255, 255, 255) 50%,
+    rgb(255, 240, 120) 100%
+  );
   visibility: hidden;
   display: none;
+  border-radius: 25% 0;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  
 }
 
-#yes:checked ~ form {
+input[type="email"],
+input[type="text"],
+input[type="date"] {
+
+  border: none;
+  /* height: 2rem;
+  background: transparent; */
+}
+.fa-calendar-days{
+  margin-left: -5.5rem;
+} 
+.contact-form input {
+  height: 2rem;
+  background: transparent;
+} 
+
+.contact-form input:focus{
+  outline-color:#f4d965;
+} 
+
+input[type="submit"] {
+  border: 2px solid #575553;
+  border-radius: 5px;
+  width: 25%;
+  /* height: 2rem;
+  background: transparent; */
+}
+
+.formicon i,
+input[type="submit"],
+input::placeholder {
+  color: #575553;
+}
+
+#yes:checked~form {
   visibility: visible;
   display: block;
   position: absolute;
-  transform: translate(-1rem, -42rem);
-  /* right: 0; */
+  transform: translate(13rem, -15rem)
 }
 
 #no:checked ~ form {
   visibility: hidden;
 }
 
-.contact-form div {
-  width: 30rem;
-  height: 40rem;
+/* .contact-form { */
+  /* width: 30rem;
+  height: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -276,13 +447,10 @@ form {
 
   background-color: gainsboro;
   border: 3px dotted #004aad;
-}
 
-input[type="submit"] {
-  color: #004aad;
-  padding: 5px;
-  margin-bottom: 5px;
-}
+
+  background-color: #f4d965;*/
+/* } */
 
 .autors {
   margin-top: auto;
@@ -301,9 +469,10 @@ input[type="submit"] {
 
 .burger-content a {
   display: block;
-  padding: 10px;
+  padding: 1rem;
   /* text-decoration: none; */
   color: #004aad;
+  font-size: 3rem;
 }
 
 .burger-content a:hover {
@@ -315,10 +484,15 @@ input[type="submit"] {
 }
 
 .dropbtn {
-  padding: 10px;
+  /* padding: 10px; */
   font-size: 2em;
   background-color: transparent;
   border: none;
+  color: #004aad;
+}
+
+.dropbtn .sprache {
+  display: none;
 }
 
 .dropdown-content {
@@ -332,12 +506,13 @@ input[type="submit"] {
 
 .dropdown-content a {
   display: block;
-  padding: 10px;
+  padding: 1rem;
   /* text-decoration: none; */
   color: #004aad;
+  font-size: 3rem;
 }
 
-span {
+.language {
   padding-left: 5px;
 }
 
@@ -350,8 +525,8 @@ span {
 }
 
 .dropdown-content img {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 /* contact Teil Alex */
@@ -361,12 +536,19 @@ span {
   justify-content: center;
   align-items: center;
 }
-.team-cards {
+.team-cards{
   margin-bottom: 1rem;
 }
 
-/* Tab breakpoint 450px-800px */
-@media screen and (min-width: 450px) and (max-width: 800px) {
+
+/* Tab breakpoint 600px-1023px */
+/* why  @media screen and (min-width: 599px) not correct???*/
+@media screen and (min-width: 599px) and (max-width: 1023px) {
+  body {
+    /* Tablet */
+    font-size: 1.6rem;
+  }
+
   header {
     display: flex;
   }
@@ -384,6 +566,10 @@ span {
     /* display: block; */
   }
 
+  .dropbtn .sprache {
+    display: inline-block;
+  }
+
   /* header nav ul {
     display: flex;
     gap: 15px;
@@ -394,7 +580,7 @@ span {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  .to-go {
+  .to-go{
     margin: 0 auto;
   }
 
@@ -407,8 +593,14 @@ span {
   }
 }
 
-/* Computer breakpoint >800px */
-@media screen and (min-width: 800px) {
+/* Computer breakpoint >992px */
+@media screen and (min-width: 992px) {
+  body {
+    /* compute */
+    font-size: 1.8rem;
+  }
+
+
   header {
     display: flex;
   }
@@ -426,20 +618,23 @@ span {
     /* display: block; */
   }
 
+  .dropbtn .sprache {
+    display: inline-block;
+  }
+
   .banner h1 {
-   padding-left: 50rem;
-   padding-top: 35rem;
+    padding-left: 50rem;
+    padding-top: 35rem;
   }
 
   .banner h2 {
-   padding-left: 50rem;
-   padding-top: 5rem;
+    padding-left: 50rem;
+    padding-top: 5rem;
   }
 
   .link_banner {
-   padding-left: 15rem;
+    padding-left: 50rem;
   }
-
 
   /* header nav ul {
     display: flex;
@@ -447,23 +642,27 @@ span {
   } */
 
   .reise-ziele {
-    height: 80%;
+    height: 100%;
     /* background-color: greenyellow; */
-    background: url(https://cdn.pixabay.com/photo/2012/04/18/01/45/world-36479_1280.png) no-repeat center/cover;
+    background: url(https://cdn.pixabay.com/photo/2012/04/11/15/48/continents-28616_1280.png)
+      no-repeat center/cover;
   }
 
-  .reise-ziele h3 {
+  .container-height > h3 {
     display: block;
-    height: 50%;
-    line-height: 50rem;
+    /* height: 50%; */
+    /* line-height: 50rem; */
     text-align: center;
+    font-size: 5rem;
+    color: #004aad;
+    margin-bottom: 3rem;
   }
   .reise-ziele + h3 {
     display: none;
   }
   .landcards {
     position: relative;
-    top: -26rem;
+    top: -40rem;
     left: 0px;
     flex-direction: row;
     gap: 5rem;
@@ -497,15 +696,15 @@ span {
     /* opacity: 0;    */
   }
 
-  .to-go:hover .card {
-    transform: scale(1.5);
-  }
-  /* china */
-  .to-china:hover .fly-to-china {
-    animation: gotochina 1s;
-    /* animation-duration: 3s; */
-    animation-fill-mode: forwards;
-  }
+    .to-go:hover .card{
+        transform: scale(1.5);
+    }
+    /* china */
+    .to-china:hover .fly-to-china {
+        animation: gotochina 1s;
+        /* animation-duration: 3s; */
+        animation-fill-mode: forwards;
+    }
 
   @keyframes gotochina {
     0% {
@@ -528,12 +727,13 @@ span {
     transform: translate(870px, -355px);
   }
 
-  /* ukraine */
-  .to-ukraine:hover .fly-to-ukraine {
-    animation: gotoukraine 1s;
-    /* animation-duration: 3s; */
-    animation-fill-mode: forwards;
-  }
+    /* ukraine */
+    .to-ukraine:hover .fly-to-ukraine {
+        animation: gotoukraine 1s;
+        /* animation-duration: 3s; */
+        animation-fill-mode: forwards;
+    }
+  
 
   @keyframes gotoukraine {
     0% {
