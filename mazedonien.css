@@ -19,7 +19,7 @@
   width: 100%;
 }
 
-.banner_chinaseite {
+.banner_mk_seite {
   /* header is position:fixed, no place */
   margin-top: 13vh;
   height: 87vh;
@@ -30,18 +30,19 @@
   background-image: url("./images/mainpage-imgs/kaneo-2.jpg");
   background-size: cover;
   background-position: center;
-  /* padding-top: 28rem; */
+  /* padding-top: 10rem; */
+  /* padding-left: 1rem; */
 }
 
-.banner_chinaseite h1 {
+.banner_mk_seite h1 {
   font-size: 6rem;
   text-align: center;
   /* margin-top: 25rem; */
   /* padding-top: 15rem; */
-  color: #f28136;
+  color: blue;
 }
 
-.banner_chinaseite > h2,
+.banner_mk_seite > h2,
 .top_5_places > h2,
 .weitere_info > h2 {
   font-size: 5rem;
