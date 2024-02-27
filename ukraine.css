@@ -18,6 +18,63 @@
         width: 100%;
     } */
 
+    @keyframes moveCar {
+        0% { left: 0%; transform: scaleX(1); }
+        40% { left: 90%; transform: scaleX(1); }
+        48% { left: 90%; transform: scaleX(1); }
+        50% { left: 90%; transform: scaleX(-1); }
+        90% { left: 0%; transform: scaleX(-1); }
+        95% { left: 0%; transform: scaleX(-1);}
+        100% { left: 0; transform: scaleX(1); }
+        
+    }
+    
+    .fa-car-side {
+        position: relative;
+        animation: moveCar 10s linear infinite;
+        font-size: 1em;
+    }
+    
+    
+    
+    .animation-auto {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    .de {
+        width: 10%;
+    }
+    
+    .icon {
+        width: 80%;
+    }
+    
+    .ua {
+        width:10%;
+    }
+    
+    .de img, .ua img {
+        width: 100%;
+        height: 5rem;
+      
+    }
+    
+    .distance {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .distance p {
+        padding: 20px 
+    }
+
+
     .banner_unterseite {
         height: 90vh;
         background-image: url("https://images.unsplash.com/photo-1529511582893-2d7e684dd128?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
