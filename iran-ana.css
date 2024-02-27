@@ -3,7 +3,9 @@
     background-size: cover;
     font-size: 1.6rem;  
     }
-        
+    .shadow {
+        text-shadow: 0px 0px 10px rgb(103, 155, 252);
+    }
     /* .menu_unterseite {
             display: flex;
             justify-content: space-between;
