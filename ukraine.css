@@ -73,7 +73,7 @@ body  {
     .fa-car-side {
         position: relative;
         animation: moveCar 10s linear infinite;
-        font-size: 1em;
+        font-size: 4rem;
     }
     
     
@@ -91,10 +91,11 @@ body  {
         width: 10%;
     }
     
-    .icon {
+    .icon_auto {
         width: 80%;
     }
-    
+
+      
     .ua {
         width:10%;
     }
@@ -179,6 +180,9 @@ body  {
         tr:nth-child(odd) {
             background-color: #B4C1C8;
         }
+
+        .weitere_info {
+            margin-bottom: 5rem;}
 
 
         @media screen and (min-width: 768px){
