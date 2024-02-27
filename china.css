@@ -172,8 +172,8 @@ tr:nth-child(odd) {
     .land_map img,
     .places img,
     iframe {
-        width: 600px;
-        height: 350px;
+        width: 60rem;
+        height: 35rem;
     }
 
 }
