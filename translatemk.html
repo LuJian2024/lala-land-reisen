@@ -53,14 +53,14 @@
 
 
     <div class="dropdown">
-      <button class="dropbtn"><i class="fa-solid fa-globe fa-xl icon-ju"></i><span class="sprache"> Sprache</span></button>
+      <button class="dropbtn"><i class="fa-solid fa-globe fa-xl icon-ju"></i><span class="sprache"> &nbspЈазик</span></button>
       <div class="dropdown-content">
         <a href="./index.html"><img src="./de.png"
             alt="Deutsch"><span class="language">Deutsch</span></a>
-        <a href="#"><img src="./iran.png" alt="Iran"><span class="language"> فارسی</span></a>
-        <a href="#"><img src="./kina.png" alt="China"><span class="language"> CN/中文</span></a>
-        <a href="#"><img src="./uk.png" alt="Ukrainen"><span class="language">Українська</span></a>
-        <a href="#"><img src="./mk.png" alt="Macedonia"><span >Mакедонски</span></a>
+        <a href="./index-fa.html"><img src="./iran.png" alt="Iran"><span class="language"> فارسی</span></a>
+        <a href="./index-chinese.html"><img src="./kina.png" alt="China"><span class="language"> CN/中文</span></a>
+        <a href="./hauptseie-ukr.html"><img src="./uk.png" alt="Ukrainen"><span class="language">Українська</span></a>
+        <a href="./translatemk.html"><img src="./mk.png" alt="Macedonia"><span >Mакедонски</span></a>
 
 
       </div>
@@ -105,7 +105,7 @@
             <img src="./Welcome-Ch.gif" alt="kina" class="team-partner" />
             <p>
               <b>
-                Патување до Кина: Восхитителна култура, антички чуда, модерни градови. Истражете разновидноста на оваа фасцинантна земја со зачудувачки пејсажи и богата историја.
+                Патување до Кина: Восхитителна култура, антички чуда, модерни градови. Истражете ја разновидноста на оваа фасцинантна земја со зачудувачки пејсажи и богата историја.
               </b>
             </p> <br>
           </div>
@@ -119,7 +119,7 @@
             <img src="./Welcome-Ua.gif" alt="ukraine" class="team-partner" />
             <p>
               <b>
-                Откријте го Украината: Историски градови, живописни пејсажи и гостоприемни луѓе. Разнообразна туристичка дестинација со уникатен шарм и културно богатство.
+                Откријте ја прекрасната Украина: Историски градови, живописни пејсажи и гостоприемни луѓе. Разнообразна и прекрасна туристичк дестинација со уникатен шарм и културно богатство.
               </b>
             </p> <br>
           </div>
@@ -134,7 +134,7 @@
             <img src="./Welcome-Mk-1.gif" alt="dog-image" class="team-partner" />
             <p>
               <b>
-                Македонија ви нуди несекојдневно искуство со впечатливи природни пејзажи, богата историја и култура, како и љубезни луѓе и изобилна автентична кујна. Неповторливо, разнообразно и зачувувачко патување во Југоисточна Европа.
+                Македонија ви нуди несекојдневно искуство со впечатливи пејзажи, богата историја и култура, како и љубезни луѓе и изобилна автентична кујна. Неповторливо патување во Југоисточна Европа.
               </b>
             </p> <br>
           </div>
@@ -274,50 +274,63 @@
          <img src="./images/LaLa-Land (4).gif" alt="Logo" /> 
       </div> -->
 
-      <a class="logo-footer" href="./index.html"><img src="./images/mainpage-imgs/Logo-footer.gif" alt="logo"></a>
+      <div class="contact-info">
 
-      <div class="icons">
-        <ul class="icon-list">
-          <li class="icon">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          </li>
-          <li class="icon">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          </li>
-          <li class="icon">
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-          </li>
-        </ul>
+
+        <div class="icons">
+          <a class="logo-footer" href="./index.html"><img src="./images/mainpage-imgs/Logo-footer.gif" alt="logo"></a>
+          <ul class="icon-list">
+            <li class="icon">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li class="icon">
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li class="icon">
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="contact-area">
+          <legend class="contact">Сакаш ли да не контактираш?</legend>
+  
+          <!-- <input type="submit" value="thank you" id="thanks"> -->
+          <input  type="radio" name="contact" id="yes"><span class="yes"><b>Да</b></span>
+          <input  type="radio" name="contact" id="no"><span class="no"><b>Не, благодарам</b></span>
+          <!-- <label for="submit">submit</label> -->
+          <!-- <input type="checkbox" id="submit"> -->
+  
+          <form action="#" method="post" class="contact-form">
+            <!-- <h1>Login</h1> -->
+            <div class="formicon">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="твоето име...">
+            </div>
+            <div class="formicon">
+              <i class="fa-solid fa-at"></i>
+              <input type="email" placeholder="твојата е-пошта..." id="">
+            </div>
+  
+            <div class="formicon">
+              <i class="fa-regular fa-calendar-days"></i>
+              <!-- <label for="dates">choose a date</label> -->
+              <input type="date" id="dates">
+            </div>
+            <!-- <div class="formicon">
+            <label for="more-info">Plese give us <br> more information about you:</label><br>
+              <textarea name="" id="" cols="25" rows="5" id="more-info"></textarea>
+            </div> -->
+            <input type="submit" name="" id="" value="Sign in">
+          </form>
+        </div>
+        <!-- <a href="#contact-form">contact us</a> -->
+        <!-- <h3>contact us</h3> -->
+  
+  
       </div>
-
-      <div class="contact-area">
-        <legend>Сакате да не контактирате?</legend>
-
-        <!-- <input type="submit" value="thank you" id="thanks"> -->
-        <input type="radio" name="contact" id="yes">да
-        <input type="radio" name="contact" id="no">не, благодарам
-        <!-- <label for="submit">submit</label> -->
-        <!-- <input type="checkbox" id="submit"> -->
-        <form action="#" method="post" class="contact-form">
-          <div>
-            <label for="names">Име:</label> 
-            <input type="text" id="names"><br><br>
-            <label for="emails">Е-пошта:</label>
-            <input type="email" name="" id="emails"><br><br>
-            <label for="dates">Избери датум:</label>
-            <input type="date" id="dates"><br><br>
-            <label for="more-info">Ве молиме дадете повеќе информации за вас:</label><br>
-            <textarea name="" id="" cols="30" rows="10" id="more-info"></textarea><br><br>
-            <input type="submit" value="Поднеси">
-          </div>
-        </form>
-      </div>
-      <!-- <a href="#contact-form">contact us</a> -->
-      <!-- <h3>contact us</h3> -->
-      
-
-    </div>
-    <p class="autors">&copy;2024 Anna Julijana Jian Alex</p>
+      <!-- <hr> -->
+      <p class="autors">&copy;2024 Anna Julijana Jian Alex</p>
   </footer>
 </body>
 

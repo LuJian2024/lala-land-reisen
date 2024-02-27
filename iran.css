@@ -1,26 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    font-size: 62.5%;
-}
-
-body  {
-            
-    background: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=1380&t=st=1708457139~exp=1708457739~hmac=4d70f1a20d9ac15968084a7970de501b612e9520c76411076633c328f56ba043");
+.ir  {            
+    background: url("./images/mainpage-imgs/pozadina-4.jpg");
     background-size: cover;
     font-size: 1.6rem;  
     }
-
-        
-    .menu_unterseite {
+    .shadow {
+        text-shadow: 0px 0px 10px rgb(103, 155, 252);
+    }
+    /* .menu_unterseite {
             display: flex;
             justify-content: space-between;
             height: 10vh;
-        }
+    }
 
     .logo {
     width: 50px;
@@ -28,36 +18,40 @@ body  {
 }
     .logo img {
         width: 100%;
-    }
+    } */
 
     .banner_unterseite {
         height: 90vh;
         background-image: url("https://irantours24.com/wp-content/uploads/2021/07/Iran_English-behine.jpg");
         background-size: cover;
         background-position: center;
+        margin-top: 13vh;
+        text-shadow: 0px 0px 10px rgb(255, 255, 255);
 
     }
 
-    h1 {
+    .banner_unterseite h1 {
         font-size: 6rem;
         text-align: center;
         padding-top: 5rem;
         color: #575757;
+        text-shadow: 0px 0px 10px white;
     }
 
-    h4 {
+    .banner_unterseite h4, .top_5_places h2, .weitere_info h2 {
         font-size: 3rem;
         text-align: center;
-        padding-top: 5rem;
+        padding-top: 4rem;
         color: #626262;
+        text-shadow: 0px 0px 10px white;
     }
-
+    
     .link_banner_unterseite {
-        position: absolute;
-        bottom: 10%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
+            position: absolute;
+            bottom: 10%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
     }
 
     .link_banner_unterseite a {   
@@ -70,37 +64,44 @@ body  {
     }
 
     .main_content_unterseite {
-        margin-top: 10rem;
+        padding-top: 13vh;
+        background: linear-gradient(90deg) aqua gainsboro goldenrod;
+    }
+
+    .top_5_places, .weitere_info {
+        padding-top: 13vh;
+    }
+
+    .top_5_places h2 {
+        text-align: center;
     }
 
     .land_map, .places_foto {
-    
-        width: 35%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .places, .info_unterseite {
-        height: 300px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         margin-top: 4rem;
         gap: 30px;
     }
 
     .text, .main-text {
-        width: 35%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        /* border: 1px solid black; */
         gap: 10px;
     }
 
     .land_map img,  img, iframe {
-        width: 500px;
-        height: 300px;
+        width: 300px;
+        height: 180px;
         border-radius: 25% 0% ;         
     }
     
@@ -128,4 +129,45 @@ body  {
             background-color: #B4C1C8;
         }
 
+
+        @media screen and (min-width: 768px){
+            
+        .land_map img,  img, iframe {
+        width: 600px;
+        height: 350px;              
+    }
+
+        }
         
+        @media screen and (min-width: 992px){
+               
+        .places, .info_unterseite {
+        height: 300px;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 4rem;
+        gap: 30px;
+        }
+
+        .land_map, .places_foto {
+    
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+        .text, .main-text {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }     
+    .land_map img,  img, iframe {
+        width: 500px;
+        height: 300px;              
+    }
+
+}
