@@ -1,5 +1,5 @@
-body  {            
-    background: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=1380&t=st=1708457139~exp=1708457739~hmac=4d70f1a20d9ac15968084a7970de501b612e9520c76411076633c328f56ba043");
+.ir  {            
+    background: url("./images/mainpage-imgs/pozadina-4.jpg");
     background-size: cover;
     font-size: 1.6rem;  
     }
@@ -20,7 +20,7 @@ body  {
 
     .banner_unterseite {
         height: 90vh;
-        background-image: url("https://images.unsplash.com/photo-1529511582893-2d7e684dd128?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-image: url("https://irantours24.com/wp-content/uploads/2021/07/Iran_English-behine.jpg");
         background-size: cover;
         background-position: center;
         margin-top: 13vh;
@@ -34,8 +34,8 @@ body  {
         color: #575757;
     }
 
-    .banner_unterseite h2, .top_5_places h2, .weitere_info h2 {
-        font-size: 5rem;
+    .banner_unterseite h4, .top_5_places h2, .weitere_info h2 {
+        font-size: 3rem;
         text-align: center;
         padding-top: 4rem;
         color: #626262;
@@ -60,6 +60,7 @@ body  {
 
     .main_content_unterseite {
         padding-top: 13vh;
+        background: linear-gradient(90deg) aqua gainsboro goldenrod;
     }
 
     .top_5_places, .weitere_info {
