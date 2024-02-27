@@ -4,6 +4,10 @@
   font-size: 1.6rem;
 }
 
+/* #places-pad {
+  padding-top: 1rem;
+} */
+
 .menu_unterseite {
   display: flex;
   justify-content: space-between;
@@ -39,7 +43,8 @@
   text-align: center;
   /* margin-top: 25rem; */
   /* padding-top: 15rem; */
-  color: blue;
+  color: #004aad;
+  -webkit-text-stroke: 2px #b4c1c8;
 }
 
 .banner_mk_seite > h2,
@@ -48,7 +53,8 @@
   font-size: 5rem;
   text-align: center;
   padding-top: 4rem;
-  color: #f28136;
+  color: #004aad;
+  -webkit-text-stroke: 2px #b4c1c8;
 }
 
 .link_banner_unterseite {
@@ -98,6 +104,11 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+
+.main-text h3,
+p {
+  text-align: center;
 }
 
 .land_map img,
