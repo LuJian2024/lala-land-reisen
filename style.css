@@ -432,7 +432,7 @@ input::placeholder {
   visibility: hidden;
 }
 
-.contact-form {
+/* .contact-form { */
   /* width: 30rem;
   height: 10rem;
   display: flex;
@@ -446,7 +446,7 @@ input::placeholder {
 
 
   background-color: #f4d965;*/
-}
+/* } */
 
 .autors {
   margin-top: auto;
