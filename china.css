@@ -167,12 +167,12 @@ tr:nth-child(odd) {
 /* @media screen and (min-width: 768px) { */
 /* Tab breakpoint 600px-1023px */
 @media screen and (min-width: 768px) and (max-width: 991px){
-    /* .land_map img,
+    .land_map img,
     .places img,
     iframe {
         width: 600px;
         height: 350px;
-    } */
+    }
 
 }
 
