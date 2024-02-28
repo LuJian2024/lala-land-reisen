@@ -116,6 +116,22 @@ body  {
         padding: 20px 
     }
 
+    .nach-oben-scroll {
+        /* display: none; */
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        background-color: #626262;
+        color: white;
+        padding: 5px 10px;
+
+    }
+
+       /*  .nach-oben-scroll:target {
+            display: block;
+        } */
+
+
     .main_content_unterseite {
         padding-top: 16vh;        
 
