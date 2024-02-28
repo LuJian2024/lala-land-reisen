@@ -1,7 +1,6 @@
-
 body {
- /* mobile first */
- font-size: 1.4rem;
+  /* mobile first */
+  font-size: 1.4rem;
 
   /* background-image: url("https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg?w=1060&t=st=1708877103~exp=1708877703~hmac=65bee5f56cb8e1088394409ea144f99b295d659b45b106700a8185701b97f1c4"); */
   background-size: cover;
@@ -355,8 +354,6 @@ main {
   margin-bottom: 5rem;
 }
 
-
-
 /* footer teil */
 footer {
   display: flex;
@@ -390,7 +387,6 @@ footer {
 }
 
 .icon-list {
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -437,28 +433,26 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center; */
-  
 }
 
 input[type="email"],
 input[type="text"],
 input[type="date"] {
-
   border: none;
   /* height: 2rem;
   background: transparent; */
 }
-.fa-calendar-days{
+.fa-calendar-days {
   margin-left: -5.5rem;
-} 
+}
 .contact-form input {
   height: 2rem;
   background: transparent;
-} 
+}
 
-.contact-form input:focus{
-  outline-color:#f4d965;
-} 
+.contact-form input:focus {
+  outline-color: #f4d965;
+}
 
 input[type="submit"] {
   border: 2px solid #575553;
@@ -474,7 +468,7 @@ input::placeholder {
   color: #575553;
 }
 
-#yes:checked~form {
+#yes:checked ~ form {
   visibility: visible;
   display: block;
   position: absolute;
@@ -485,16 +479,17 @@ input::placeholder {
   visibility: hidden;
 }
 
-.contact{
+.contact {
   color: #004aad;
   font-size: 3rem;
 }
-.yes, .no{
+.yes,
+.no {
   color: #004aad;
   font-size: 2rem;
 }
 /* .contact-form { */
-  /* width: 30rem;
+/* width: 30rem;
   height: 10rem;
   display: flex;
   flex-direction: column;
@@ -509,7 +504,7 @@ input::placeholder {
   background-color: #f4d965;*/
 /* } */
 
-hr{
+hr {
   height: 0.1rem;
   color: #000;
 }
@@ -597,10 +592,9 @@ hr{
   justify-content: center;
   align-items: center;
 }
-.team-cards{
+.team-cards {
   margin-bottom: 10rem;
 }
-
 
 /* Tab breakpoint 600px-1023px */
 /* why  @media screen and (min-width: 599px) not correct???*/
@@ -649,13 +643,13 @@ hr{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  .to-go{
+  .to-go {
     margin: 0 auto;
   }
   /* .travel-tips {
     width: 35%;
   } */
-  
+
   .alex {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -665,15 +659,12 @@ hr{
   }
 }
 
-
-
 /* Computer breakpoint >992px */
 @media screen and (min-width: 992px) {
   body {
     /* compute */
     font-size: 1.8rem;
   }
-
 
   header {
     display: flex;
@@ -721,14 +712,14 @@ hr{
     /* padding-top: 3rem; */
     /* color: #415e7a; */
   }
-  
+
   .banner h2 {
     font-size: 5rem;
     text-align: center;
     /* padding-top: 1rem; */
     /* color: #415e7a; */
   }
-  
+
   .link_banner {
     padding-left: 50rem;
   }
@@ -772,9 +763,8 @@ hr{
     width: 35%;
     height: 50rem;
   }
-  .tips{
+  .tips {
     flex-direction: row;
- 
   }
   .tips-titel {
     margin-top: 25rem;
@@ -811,15 +801,15 @@ hr{
     /* opacity: 0;    */
   }
 
-    .to-go:hover .card{
-        transform: scale(1.5);
-    }
-    /* china */
-    .to-china:hover .fly-to-china {
-        animation: gotochina 1s;
-        /* animation-duration: 3s; */
-        animation-fill-mode: forwards;
-    }
+  .to-go:hover .card {
+    transform: scale(1.5);
+  }
+  /* china */
+  .to-china:hover .fly-to-china {
+    animation: gotochina 1s;
+    /* animation-duration: 3s; */
+    animation-fill-mode: forwards;
+  }
 
   @keyframes gotochina {
     0% {
@@ -842,13 +832,12 @@ hr{
     transform: translate(1200px, -355px);
   }
 
-    /* ukraine */
-    .to-ukraine:hover .fly-to-ukraine {
-        animation: gotoukraine 1s;
-        /* animation-duration: 3s; */
-        animation-fill-mode: forwards;
-    }
-  
+  /* ukraine */
+  .to-ukraine:hover .fly-to-ukraine {
+    animation: gotoukraine 1s;
+    /* animation-duration: 3s; */
+    animation-fill-mode: forwards;
+  }
 
   @keyframes gotoukraine {
     0% {
