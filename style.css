@@ -329,6 +329,10 @@ main {
   background: rgb(235, 233, 233);
 }
 
+.welcome-cards > p {
+  font-size: 2rem;
+}
+
 .team-partner {
   width: 210px;
   height: 220px;
