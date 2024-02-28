@@ -138,6 +138,18 @@ main {
   display: none;
 } */
 
+/* Nach oben scroll */
+.nach-oben-scroll {
+  /* display: none; */
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: #626262;
+  color: white;
+  padding: 5px 10px;
+
+}
+
 .container-height > h3 {
   display: block;
   /* height: 50%; */
