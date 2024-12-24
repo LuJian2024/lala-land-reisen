@@ -35,3 +35,28 @@ So können Sie unser Projekt lokal anzeigen:
 Werfen Sie einen Blick auf unsere Reiseziele und entdecken Sie spannende Orte!
 
 Viel Spaß! 🎉
+
+## 👩‍💻 Unser Team
+
+Unser Team wird durch charakteristische Tiere aus unseren Herkunftsländern repräsentiert. Hier sind unsere Mitglieder:
+
+- 🐆 **Alex (Gepard)**  
+  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-nezhad-2517a6322) 
+  [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alex-nezhad) 
+  [![E-Mail](https://img.shields.io/badge/-E--Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alex.nezhad@example.com)
+
+- 🦢 **Anna (Storch)**  
+  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anna-link) 
+  [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anna-github) 
+  [![E-Mail](https://img.shields.io/badge/-E--Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anna@example.com)
+
+- 🐼 **Jian (Panda)**  
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jian-link) 
+  [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jian-github) 
+  [![E-Mail](https://img.shields.io/badge/-E--Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jian@example.com)
+
+- 🐕 **Julijana (Scharplaninez)**  
+   [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julijana-link) 
+  [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/julijana-github) 
+  [![E-Mail](https://img.shields.io/badge/-E--Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:julijana@example.com) 
+
