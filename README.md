@@ -35,6 +35,15 @@ Unsere Website enthält folgende Bereiche:
 
 ![Screenshot from 2024-12-24 11-15-00](https://github.com/user-attachments/assets/3b30807f-11d8-42ea-b462-026d75926b37)
 
+## 🛠️ Verwendete Technologien
+
+In diesem Projekt haben wir folgende Technologien eingesetzt:
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+- **HTML5** 🖋️: Für die Grundstruktur der Seite.
+- **CSS3** 🎨: Für das Design und die visuelle Gestaltung
 ---
 
 ## 🚀 Installation und Ansicht des Projekts
