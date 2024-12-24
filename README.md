@@ -19,6 +19,22 @@ Unsere Website enthält folgende Bereiche:
 
 [Screencast from 24.12.2024 10:19:51.webm](https://github.com/user-attachments/assets/c380e11a-add1-4ebf-88e1-71945630b9a4)
 
+## Unterseite: Destination- China
+
+![Screenshot from 2024-12-24 11-13-29](https://github.com/user-attachments/assets/39859deb-3045-43bb-92c7-ccbe3b8e6466)
+
+## Unterseite: Destinaion- die Ukraine
+
+![Screenshot from 2024-12-24 11-13-50](https://github.com/user-attachments/assets/d4ac4d3a-c1b5-40fd-aa33-87b6c3d9ad08)
+
+## Unterseite: Destination- Iran
+
+![Screenshot from 2024-12-24 11-14-14](https://github.com/user-attachments/assets/ded8b281-7e0c-4106-8866-f0f7c39d3c9d)
+
+## Unterseite: Destination- Mazedonien
+
+![Screenshot from 2024-12-24 11-15-00](https://github.com/user-attachments/assets/3b30807f-11d8-42ea-b462-026d75926b37)
+
 ---
 
 ## 🚀 Installation und Ansicht des Projekts
