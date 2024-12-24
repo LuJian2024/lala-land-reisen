@@ -42,7 +42,7 @@ Viel Spaß! 🎉
 
 ## 👩‍💻 Unser Team
 
-Unser Team wird durch charakteristische Tiere aus unseren Herkunftsländern repräsentiert. Hier sind unsere Mitglieder:
+Unser Team wird durch charakteristische Tiere aus unseren Herkunftsländern repräsentiert. Hier sind unsere Mitglieder und ihre Kontaktdaten:
 
 - 🐆 **Alex (Gepard)**  
   [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-nezhad-2517a6322) 
