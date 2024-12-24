@@ -56,7 +56,7 @@ Werfen Sie einen Blick auf unsere Reiseziele und entdecken Sie spannende Orte!
 
 Viel Spaß! 🎉
 
-## 👩‍💻 Unser Team
+## 👩‍💻 Unser Team die Kontaktdaten
 
 Unser Team wird durch charakteristische Tiere aus unseren Herkunftsländern repräsentiert. Hier sind unsere Mitglieder und unsere Kontaktdaten:
 
