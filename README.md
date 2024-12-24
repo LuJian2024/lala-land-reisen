@@ -8,7 +8,9 @@ Willkommen bei **Lala-Land Travel**, unserer ersten Team-Website aus dem Modul *
 
 Unsere Website enthält folgende Bereiche:
 
-- **Reiseziele**: Eine Übersicht über verschiedene Reiseorte.  
+- **Reiseziele**: Eine Übersicht über verschiedene Reiseorte.
+
+   [Screencast from 24.12.2024 10:20:24.webm](https://github.com/user-attachments/assets/227d1f1a-3d69-4f3a-8c4b-0fcb508b6f1e)
 - **Reisetipps**: Hilfreiche Tipps für Reisen und Urlaub.  
 - **Unser Team**: Vorgestellt durch charakteristische Tiere aus unseren Herkunftsländern.  
 - **Kontakt**: Informationen, wie Sie uns erreichen können.  
