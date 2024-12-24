@@ -46,7 +46,7 @@ Unser Team wird durch charakteristische Tiere aus unseren Herkunftsländern repr
 
 - 🐆 **Alex (Gepard)**  
   [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-nezhad-2517a6322) 
-  [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alex-nezhad) 
+  [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alexmanii) 
   [![E-Mail](https://img.shields.io/badge/-E--Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammad.mohammad@dci-student.org)
 
 - 🦢 **Anna (Storch)**  
