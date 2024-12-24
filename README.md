@@ -1,6 +1,6 @@
 # 🏝️ Lala-Land Travel
 
-Willkommen bei **Lala-Land Travel**, unserer ersten Team-Website aus dem Modul **UI Basics**. Diese Website wurde mit **HTML** und **CSS** erstellt und zeigt den Beginn unseres Kurses, die ersten gelernten Inhalte und unsere erste Teamarbeit. Das Modul UI Basics ist der erste Schritt in unserem Webentwickler-Kurs und bietet die Grundlage für das Erlernen der Benutzeroberflächenentwicklung. In diesem Modul haben wir die grundlegenden Prinzipien von HTML und CSS kennengelernt und die ersten praktischen Anwendungen umgesetzt.
+Willkommen bei **Lala-Land Reisen**, unserer ersten Team-Website aus dem Modul **UI Basics**. Diese Website wurde mit **HTML** und **CSS** erstellt und zeigt den Beginn unseres Kurses, die ersten gelernten Inhalte und unsere erste Teamarbeit. Das Modul UI Basics ist der erste Schritt in unserem Webentwickler-Kurs und bietet die Grundlage für das Erlernen der Benutzeroberflächenentwicklung. In diesem Modul haben wir die grundlegenden Prinzipien von HTML und CSS kennengelernt und die ersten praktischen Anwendungen umgesetzt.
 
 ---
 
