@@ -17,6 +17,8 @@ Unsere Website enthält folgende Bereiche:
 - **Destinationsseiten**: Durch Klicken auf unsere Reiseziele gelangen Sie zu einer Unterseite mit Details über die Destination.  
 - **Statische Übersetzung**: Die Seite unterstützt mehrere Sprachen.
 
+[Screencast from 24.12.2024 10:19:51.webm](https://github.com/user-attachments/assets/c380e11a-add1-4ebf-88e1-71945630b9a4)
+
 ---
 
 ## 🚀 Installation und Ansicht des Projekts
