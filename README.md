@@ -99,7 +99,8 @@ Unser Team wird durch charakteristische Tiere aus unseren Herkunftsländern repr
   [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alexxmanii) 
   [![E-Mail](https://img.shields.io/badge/-E--Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammad.mohammad@dci-student.org)
 
- 🦢 **Anna (Storch)**  
+ ![stork](https://github.com/user-attachments/assets/0966731a-44b2-4899-a9ff-3f39afb1eef0)
+ **Anna (Storch)**  
  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anna-popova-95b27393) 
   [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anyuka007) 
   [![E-Mail](https://img.shields.io/badge/-E--Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anna.popova0510@gmail.com)
